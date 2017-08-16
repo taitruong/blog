@@ -1,26 +1,17 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
-image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+title: About Me
+excerpt: "Who am I?"
+modified: 2017-08-16
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+## Whoami.v1
+I love to Read.  
+I love to Learn.  
+I love Building Products.  
+I have a Passion for Business.  
+I am a Software Developer with an MBA.  
+I am an Entrepreneur, Coder, Maker, Father, Husband. 
 
-## So Simple Theme is all about:
-
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
-
-[^1]: Example: *domain.com/category-name/post-title*
+## whoami.v2
+I am the CTO of the Haufe-Lexware Group (http://haufe-lexware.de), one of the leading digital media and business services companies in Germany. I am also co-founder and chief-developer of [launchd.de](http://launchd.de), a business incubator platform. I have over 20 years of software development experience in Telecom, Middleware, and SOA products in enterprises and startups. Prior to joining Haufe-Lexware, I was API Evangelist, Product Architect and Business Developer for Layer7 Technologies. Before joining Layer7 I was part of the in-house incubator team at the IBM WebSphere CTO office working on Hybrid Cloud and the IBM Appliance Foundation. My previous companies include DataPower Technologies, Lucent Technology, and Hughes Network Systems.
