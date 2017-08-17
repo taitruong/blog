@@ -6,12 +6,10 @@ excerpt: "Layer7 TechTalk on YouTube"
 tags: [video, iot]
 link: http://www.youtube.com/watch?v=GrmuwaFnWSM
 author: hlgr360
-date: 2013-06-19
 share: true
+date: 2013-06-19
 ---
 
-### Layer7 TechTalk: The Internet of Things IoT Live Q&A
+Live discussion on the Internet of Things (IoT). As the Layer 7 Product Architect and resident IoT expert I am answered questions live on Youtube.
 
-<iframe width="560" height="315" src="//www.youtube.com/watch?v=GrmuwaFnWSM" frameborder="0"> </iframe>
-
-Live discussion on the Internet of Things (IoT). Our special guest -- Layer 7 Product Architect and IoT expert Holger Reinhardt -- answered questions live. (to view select link above)
+<iframe width="560" height="315" src="http://www.youtube.com/watch?v=GrmuwaFnWSM" frameborder="0"> </iframe>
