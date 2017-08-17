@@ -2,7 +2,7 @@
 
 set -e
 
-DEPLOY_REPO="https://${DEPLOY_BLOG_TOKEN}@github.com/pauldambra/pauldambra.github.io.git"
+DEPLOY_REPO="https://${DEPLOY_BLOG_TOKEN}@github.com/hlgr360/blog.git"
 
 function main {
 	clean
@@ -13,12 +13,12 @@ function main {
 
 function clean {
 	echo "cleaning _site folder"
-	if [ -d "_site" ]; then rm -Rf _site; fi
+	if [ -d "blog" ]; then rm -Rf blog; fi
 }
 
 function get_current_site {
 	echo "getting latest site"
-	git clone --depth 1 $DEPLOY_REPO _site
+	git clone --depth 1 $DEPLOY_REPO
 }
 
 function build_site {
@@ -39,13 +39,13 @@ function deploy {
 	    exit 0
 	fi
 
-	cd _site
+	cd blog/_site
+	git init
 	git config --global user.name "Travis CI"
-    git config --global user.email paul.dambra+travis@gmail.com
-	git add -A
-	git status
-	git commit -m "Lastest site built on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to github"
-	git push $DEPLOY_REPO master:master
+    git config --global user.email deploy@launchd.de
+  	git add .
+	git commit -m "Build $TRAVIS_BUILD_NUMBER deployed to github"
+	git push $DEPLOY_REPO master:gh-pages --force
 }
 
 main
