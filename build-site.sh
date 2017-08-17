@@ -1,10 +1,13 @@
 #! /bin/bash
-
+# script inspired by 
+# 	http://varunbpatil.github.io/2013/07/06/jekyll-build-fail/#.WZV5qK2B3re
+#	http://pauldambra.github.io/using-travis-to-build-jekyll.html
 set -e
 
 DEPLOY_REPO="https://${DEPLOY_BLOG_TOKEN}@github.com/hlgr360/blog.git"
 
 function main {
+	# only require checkout when running locally
 	# clean
 	# get_source
 	build_site
@@ -23,6 +26,9 @@ function get_source {
 
 function build_site {
 	echo "building site"
+	
+	# if build with a local clone of the source 
+	# cd blog
 	bundle exec jekyll build
 }
 
@@ -39,6 +45,8 @@ function deploy {
 	    exit 0
 	fi
 
+	# if build with a local clone of the source 
+	# cd blog/_site
 	cd _site
 	git init
 	git config --global user.name "Travis CI"
