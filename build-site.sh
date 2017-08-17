@@ -5,8 +5,8 @@ set -e
 DEPLOY_REPO="https://${DEPLOY_BLOG_TOKEN}@github.com/hlgr360/blog.git"
 
 function main {
-	clean
-	get_current_site
+	# clean
+	# get_source
 	build_site
     deploy
 }
@@ -16,7 +16,7 @@ function clean {
 	if [ -d "blog" ]; then rm -Rf blog; fi
 }
 
-function get_current_site {
+function get_source {
 	echo "getting source"
 	git clone --depth 1 $DEPLOY_REPO
 }
