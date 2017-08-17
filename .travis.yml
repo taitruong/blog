@@ -1,9 +1,10 @@
 language: ruby
 cache: bundler
+sudo: false
 install:
 - bundle install
 script:
-- ./script/build-site.sh
+- ./build-site.sh
 env:
   global:
     secure: p4wO2sBTw+c+mDFsYxqG0Hh7b5wmOm4y3UR5hgCW9svBx9zPMjV6Nr4UEuvbL9iOhw69WtyNN76W/Do12+cJ0kOCP+ZTBqQSMNEtfjqfOjaj9YwKSs7fl/f7IqZtMjg8wcU2WVYd15dmvTB+0LeaP20Z5dh/FfDE8riZkq21TTkdo97g53383/d8NGL4kniYBBLM8p+BynQ9nsLsUVn/PRwnst6iuRtAU16XgidWUHGieNUGpuO1vYu7PQrw5+K5MmpdQUWiGKn8hCtbgG43ArD6wXVdeLhjWWtF5OCDJL6IwINzR8ACAWxZ0auv3U8lzzwQqCgfq8Ryih059Dvz+LgYqJedQPv9+NZbLJmcXKgOaM9/R6ItB8RMX1X74JkcBRJ0BrL5EiN/9oGjrByvLsjWkCnmmzDIOuXmrJ2IIll6Cid5XRxnL63NrHCWsDEo5ZPpqy5D9t6SrnULk3kHEpgN97WgatG8Vm7zsz/IUj9M+1lHWIGMUhn3ghVONDeWk95q1XBV5L4npLnkX8jkcO7IcKa9Tok++8IBocsY4bJA8ugdekuM+6mg3NSvHG7Heokxfoeh+h8gELXL41AlnTXDNhJ4kHRoeY4gq3A+2KBvD7my2l2szYc/vj6KSv6Jo6uuStDBx5Thle3/XHrKJiCUF6/xsOHQ317+98wvhzE=
