@@ -12,12 +12,12 @@ function main {
 }
 
 function clean {
-	echo "cleaning _site folder"
+	echo "cleaning folder"
 	if [ -d "blog" ]; then rm -Rf blog; fi
 }
 
 function get_current_site {
-	echo "getting latest site"
+	echo "getting source"
 	git clone --depth 1 $DEPLOY_REPO
 }
 
@@ -39,7 +39,7 @@ function deploy {
 	    exit 0
 	fi
 
-	cd blog/_site
+	cd _site
 	git init
 	git config --global user.name "Travis CI"
     git config --global user.email deploy@launchd.de
