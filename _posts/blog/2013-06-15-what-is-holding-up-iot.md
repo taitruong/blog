@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What’s Holding Up The Internet Of Things"
+title: "ReadWrite: What’s Holding Up The Internet Of Things"
 categories: blog
 excerpt: "Taking to Brian Proffitt at ReadWrite"
 link: http://readwrite.com/2013/06/14/whats-holding-up-the-internet-of-things/

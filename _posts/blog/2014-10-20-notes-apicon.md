@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The future of APIs"
+title: "Blockchain and APIs"
 categories: blog
 excerpt: "Notes from APIconUK 2014"
 tags: [api, blockchain, conferences]
