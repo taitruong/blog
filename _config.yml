@@ -9,8 +9,8 @@ url: https://hlgr360.github.io/blog
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
-markdown:    kramdown
+permalink: /:categories/:title/
+markdown: kramdown
 highlighter: rouge
 sass:
   sass_dir: _sass
@@ -33,13 +33,15 @@ mathjax: true
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
+# Enter your Google Analytics web tracking code (e.g. UA-xxx) to activate tracking
+google_analytics: UA-41891930-1
 
 # Site owner
 owner:
   name: Holger Reinhardt
   avatar: hlgr360.jpg
   email: holger@launchd.de
-  disqus-shortname: #username
+  disqus-shortname: hlgr360
   twitter: hlgr360
   facebook: #username
   github: hlgr360
@@ -50,10 +52,3 @@ owner:
   tumblr: #username
   pinterest: #username
   weibo: #userid
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
