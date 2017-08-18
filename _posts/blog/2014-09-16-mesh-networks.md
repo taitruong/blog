@@ -3,7 +3,7 @@ layout: post
 title: "Is IoT better described as Internet of Nodes?"
 categories: blog
 excerpt: "Are mesh networks the right answer for the Internet of Things?"
-tags: [iot]
+tags: [iot, blockchain, p2p]
 author: hlgr360
 share: true
 date: 2014-09-16

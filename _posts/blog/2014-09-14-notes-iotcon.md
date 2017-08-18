@@ -2,14 +2,14 @@
 layout: post
 title: "The connectivity of things"
 categories: blog
-excerpt: "Notes from IOTCon 2014"
+excerpt: "Notes from IOTcon 2014"
 tags: [iot, conferences]
 author: hlgr360
 share: true
 date: 2014-09-14
 ---
 
-Here are my notes from [Iotcon 2014](http://iotcon.de/2014/de) in Berlin. Feel free to ping me if anything catches your interest and you want to talk about it.
+Here are my notes from [IOTcon 2014](http://iotcon.de/2014/de) in Berlin. Feel free to ping me if anything catches your interest and you want to talk about it.
 
 It was a more developer focussed conference than Thingscon with an heavy emphasize on Protocols and Frameworks (in particular Eclipse hosted ones). One interesting and very mature looking framework I did not know was [OpenHAB](http://www.openhab.org).
 
