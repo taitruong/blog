@@ -27,7 +27,7 @@ Ok, so lets get down to business and my notes. You can find speaker slides - if
 * Only include architectural significant elements -> do not over specify for understanding
   * Analogue is to google maps -> street view vs directions
 * Write architecture as code
-  * See (http://structurizr.com)
+  * Checkout [structurizr](http://structurizr.com)
     * Render architecture models from code
     * Architecture map(s) allows you to navigate from different level of abstraction down to source code
     * Java specification on Github
