@@ -5,6 +5,7 @@ locale: en_US
 description: I love building products.
 logo: site-logo.png
 search: true
+comments: true
 url: https://hlgr360.github.io/blog
 
 # Jekyll configuration
