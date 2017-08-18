@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Would You Like a Library with That (API)?"
+title: "Lean API Strategy"
 categories: blog
-excerpt: "SDKs work until they don't"
+excerpt: "Looking beyond the buzzwords"
 tags: [api, lean, strategy, books]
 author: hlgr360
 share: true
