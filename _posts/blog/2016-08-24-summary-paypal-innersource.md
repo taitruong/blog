@@ -3,7 +3,7 @@ layout: post
 title: Summary of PayPal InnerSource Summit, 2016
 excerpt: "Haufe Blog: Notes from PayPal InnerSource Summit"
 categories: blog
-tags: [conference, development, culture]
+tags: [conferences, development, culture]
 author: hlgr360
 share: true
 ---

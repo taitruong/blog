@@ -3,7 +3,7 @@ layout: post
 title: Summary of QCon New York, 2016
 excerpt: "Haufe Blog: Notes from QCon New York"
 categories: blog
-tags: [conference, development, culture]
+tags: [conferences, development, culture]
 author: hlgr360
 share: true
 ---

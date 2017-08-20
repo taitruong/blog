@@ -6,7 +6,6 @@ excerpt: "Build your own Docker-ized Reddit clone with telesc.pe"
 tags: [development, docker]
 date: 2015-02-18
 author: hlgr360
-share: true
 ---
 
 Continuing on my quest to create my own communication stack using open source - here is my experience creating a Docker-ized version of the [Telescope community server](http://www.telesc.pe).

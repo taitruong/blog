@@ -6,7 +6,6 @@ excerpt: "Layer7 API Tech Talk with Holger Reinhardt"
 tags: [video, api, iot]
 author: hlgr360
 share: true
-date: 2013-10-31
 ---
 
 In this API Tech Talk we discussed how to design APIs with IoT in Mind.

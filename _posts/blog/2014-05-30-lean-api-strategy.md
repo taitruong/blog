@@ -6,7 +6,6 @@ excerpt: "Looking beyond the buzzwords"
 tags: [api, lean, strategy, books]
 author: hlgr360
 share: true
-date: 2014-05-30
 ---
 
 Lean, API and IoT are probably the most hyped terms right now in our industry. While I tend to to explore the latter two, I would like to balance it by talking about the former: Lean and API.

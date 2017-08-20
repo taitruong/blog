@@ -6,7 +6,6 @@ excerpt: "Are mesh networks the right answer for the Internet of Things?"
 tags: [iot, blockchain, p2p]
 author: hlgr360
 share: true
-date: 2014-09-16
 ---
 
 The recent Gigagom article about [FireChat](http://semanticweb.com/open-gardens-firechat-adds-iot_b44343) caught my interest. In particular the following paragraph

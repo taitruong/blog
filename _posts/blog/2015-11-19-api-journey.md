@@ -6,7 +6,6 @@ categories: blog
 tags: [api]
 author: hlgr360
 share: true
-date: 2015-11-19
 ---
 
 (this post was originally published on the [Haufe Development Blog](http://work.haufegroup.io))

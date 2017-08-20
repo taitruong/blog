@@ -4,7 +4,6 @@ title: "Event Horizon - The Future of APIs in IoT (revisited)"
 categories: blog
 excerpt: "Designing APIs for the Internet of Things"
 tags: [api, iot]
-date: 2014-10-10
 author: hlgr360
 share: true
 ---

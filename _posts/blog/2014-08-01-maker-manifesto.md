@@ -6,7 +6,6 @@ excerpt: "SDKs work until they don't"
 tags: [maker, iot, strategy, books]
 author: hlgr360
 share: true
-date: 2014-08-01
 ---
 
 One of the few perks of having to travel is the chance to read books (remember those?) from cover to cover in one go. I recently had the chance to read [The Maker Manifesto](http://www.amazon.com/Maker-Movement-Manifesto-Innovation-Tinkerers-ebook/dp/B00FFAS11U) from Mark Hatch, the CEO of [Techshops](http://techshop.ws). It is one of those rare books which make you want to jump up and start 'making' something (not a good idea in an airplane I admit). But more about this in a minute.

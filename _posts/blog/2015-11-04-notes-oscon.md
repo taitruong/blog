@@ -6,7 +6,6 @@ excerpt: "Notes from OSCON Europe 2015"
 tags: [oss, innersource, conferences]
 author: hlgr360
 share: true
-date: 2015-11-04
 ---
 
 Last week I had the chance to attend the OSCON Europe conference in Amsterdam. I would give the conference an overall good rating, but I was missing a bit the excitement and drumbeat (and some roadmap discussions) of leading Open Source foundations like Mozilla, Apache, or even Open Source companies like Docker. There was an interesting (photoshop'ed) teaser in the keynote on the second day by the energetic founders of [Phusion](http://www.phusion.nl) Team about 'The Business of Open Source'. I would have loved to hear more about it - but maybe it was a clever marketing ploy to see if attendants would actually go out and ask the O'Really folks about that book. Well, it worked for me :)

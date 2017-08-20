@@ -5,7 +5,6 @@ categories: blog
 excerpt: "Talking to Paul Venezia at InfoWorld"
 link: http://www.infoworld.com/article/2609511/security/to-secure-the-internet-of-things--assume-failure.html
 tags: [press, iot]
-date: 2013-12-01
 author: hlgr360
 share: true
 ---

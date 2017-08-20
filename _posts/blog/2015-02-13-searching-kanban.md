@@ -6,7 +6,6 @@ excerpt: "Finding the perfect open-source Kanban project management tool"
 tags: [development, docker]
 date: 2015-02-13
 author: hlgr360
-share: true
 ---
 
 I am going to admit, Docker has me hooked. I had been dabbling with Chef and Puppet, but they always seem to be too powerful and too complex for my simple needs to quickly prototype something. With docker I finally have the ability to script my setups and (re)create them at will. Ofcoure there are gotchas - and I will write about them as I go along my merry ways.

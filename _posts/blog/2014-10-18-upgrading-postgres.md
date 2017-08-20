@@ -4,7 +4,6 @@ title: "Upgrading from Postgres 9.2 to 9.3 on Heroku"
 categories: blog
 excerpt: "Why I stoped loving and started hating PaaS"
 tags: [development]
-date: 2014-10-18
 author: hlgr360
 share: true
 ---

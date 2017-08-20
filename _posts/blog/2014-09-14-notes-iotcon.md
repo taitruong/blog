@@ -6,7 +6,6 @@ excerpt: "Notes from IOTcon 2014"
 tags: [iot, conferences]
 author: hlgr360
 share: true
-date: 2014-09-14
 ---
 
 Here are my notes from [IOTcon 2014](http://iotcon.de/2014/de) in Berlin. Feel free to ping me if anything catches your interest and you want to talk about it.

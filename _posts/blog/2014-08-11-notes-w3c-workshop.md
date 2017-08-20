@@ -6,7 +6,6 @@ excerpt: "Notes from the W3C Workshop 2014"
 tags: [iot, conferences]
 author: hlgr360
 share: true
-date: 2014-08-11
 ---
 
 I had the opportunity to attend the W3C workshop on the Web Of Things in Berlin at the end of June. Here is a quick summary of my notes from the presentations and conversations - links to some the presentations can be found [here](http://www.w3.org/2014/02/wot/agenda.html) and [here](http://www.w3.org/2014/02/wot/report.html)

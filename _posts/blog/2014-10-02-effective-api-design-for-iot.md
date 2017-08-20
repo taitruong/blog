@@ -6,7 +6,6 @@ excerpt: "Talk at APIcon in San Francisco, 2014"
 tags: [video, api, iot]
 author: hlgr360
 share: true
-date: 2014-10-02
 ---
 
 Holger Reinhardt of Layer 7 Technologies presents an opinionated investigation into the impact of the Internet of Thing on APIs. What will remain and what will change? How will the future API design, protocols and developer experience be impacted by the promises and limitations of IoT. 

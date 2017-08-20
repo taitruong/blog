@@ -6,7 +6,6 @@ excerpt: "My Personal Hack-a-thon"
 tags: [development]
 author: hlgr360
 share: true
-date: 2013-09-16
 ---
 
 I love my work. But from my wife's perspective I am an addict. Maybe it has to do with the fact that I started programming at age 14, turning a Z80 based electronic typewriter into a PC. To this day I remember the Z80 machine code from porting CPM to this wonderful 8 MHz 4k machine:

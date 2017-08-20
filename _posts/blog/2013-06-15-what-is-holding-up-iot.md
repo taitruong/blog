@@ -5,7 +5,6 @@ categories: blog
 excerpt: "Taking to Brian Proffitt at ReadWrite"
 link: http://readwrite.com/2013/06/14/whats-holding-up-the-internet-of-things/
 tags: [press, iot]
-date: 2013-06-15
 author: hlgr360
 share: true
 ---

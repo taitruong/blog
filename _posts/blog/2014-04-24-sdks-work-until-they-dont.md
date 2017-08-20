@@ -6,7 +6,6 @@ excerpt: "SDKs work until they don't"
 tags: [api]
 author: hlgr360
 share: true
-date: 2014-04-24
 ---
 
 Over the last couple of months I have had the great opportunity to road test my findings on SDKs vs APIs with a wide variety of audiences at our API Summits in New York and London, on-tour with the Nordic API team in Stockholm and Copenhagen as well as my most recent API Workshop in Istanbul. Given the apparent relevance of the topic and lively discussions, I would like to summarize some of the insights and recommendation here as well. 

@@ -6,7 +6,6 @@ excerpt: "Notes from APIconUK 2014"
 tags: [api, blockchain, conferences]
 author: hlgr360
 share: true
-date: 2014-10-20
 ---
 
 I presented on the Future of APIs in the IoT at the APIcon UK Edition in London last month.

@@ -5,7 +5,6 @@ categories: blog
 excerpt: "My favorite books on (Lean) entrepreneurship"
 link: https://4launchd.wordpress.com/2013/08/14/lean-entrepreneurship-reading/
 tags: [lean, entrepreneur, books]
-date: 2013-08-14
 author: hlgr360
 share: true
 ---

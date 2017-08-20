@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 excerpt: "Who am I?"
+search_omit: true
 ---
 
 ## whoami.v1 (Personal)
