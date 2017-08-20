@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Business of Open Source"
+title: "OSCON EU 2015: The Business of Open Source"
 categories: blog
 excerpt: "Notes from OSCON Europe 2015"
 tags: [oss, innersource, conferences]

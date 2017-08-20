@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Connectivity of Things"
+title: "IOTcon 2014: The Connectivity of Things"
 categories: blog
 excerpt: "Notes from IOTcon 2014"
 tags: [iot, conferences]

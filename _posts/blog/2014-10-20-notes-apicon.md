@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blockchain and APIs"
+title: "APIconUK 2014: Blockchain and APIs"
 categories: blog
 excerpt: "Notes from APIconUK 2014"
 tags: [api, blockchain, conferences]

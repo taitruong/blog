@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "The Web of Things"
+title: "W3C Workshop 2014"
 categories: blog
-excerpt: "Notes from the W3C Workshop 2014"
+excerpt: "Notes from the W3C Workshop Berlin, 2014"
 tags: [iot, conferences]
 author: hlgr360
 share: true
