@@ -49,7 +49,7 @@ The TCP port shows up as part of the UNIX domain socket filename. So if your Pos
 
 Here are the links which helped me to get a working Postgres 9.3 instance up and running:
 
-* http://stackoverflow.com/questions/10263821/rails-rake-dbcreateall-fails-to-connect-to-postgresql-database
-* http://www.unixmen.com/install-postgresql-9-3-phppgadmin-centos-6-5/
+* (http://stackoverflow.com/questions/10263821/rails-rake-dbcreateall-fails-to-connect-to-postgresql-database)
+* (http://www.unixmen.com/install-postgresql-9-3-phppgadmin-centos-6-5/)
 
 So what are my conclusion? Well - I am already knee deep into moving our platform into Docker, well [Vagrant](http://www.vagrantup.com/downloads.html) + [CoreOS](https://coreos.com/docs/running-coreos/platforms/vagrant/#single-machine) + [Docker](http://www.talkingquickly.co.uk/2014/06/rails-development-environment-with-vagrant-and-docker/) to be precise. First with our development setup and then onto Amazon for production. Ultimately **control over my runtime environment in an IaaS trumps the backloaded convenience of a PaaS**. I will keep you posted.

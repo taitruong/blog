@@ -8,7 +8,7 @@ author: hlgr360
 share: true
 ---
 
-Holger Reinhardt of Layer 7 Technologies presents an opinionated investigation into the impact of the Internet of Thing on APIs. What will remain and what will change? How will the future API design, protocols and developer experience be impacted by the promises and limitations of IoT. 
+Holger Reinhardt of Layer 7 Technologies presents an opinionated investigation into the impact of the Internet of Thing on APIs. What will remain and what will change? How will the future API design, protocols and developer experience be impacted by the promises and limitations of IoT.
 
 This presentation will get you an (admittedly) opinionated overview over the current state of the art and possible future direction of APIs in IoT.
 

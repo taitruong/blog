@@ -174,18 +174,18 @@ Here is a quick summary of my highlights of QCon New York from June 13th to June
 * How cryptocurrency is stored at [Coinbase](https://www.coinbase.com)
 * Sharding of crypto keys using [shamir secret sharing](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing)
 * Using cold and hot storage (consensus access)
-	* Cold storage
-		* Most of the crypto currency is stored in cold storage (disconnected)
-		* Generated on hardware never connected to the internet
-		* Stored on usb
-		* Private key is being split into shards and encrypted independently 
+    * Cold storage
+        * Most of the crypto currency is stored in cold storage (disconnected)
+        * Generated on hardware never connected to the internet
+        * Stored on usb
+        * Private key is being split into shards and encrypted independently 
 		* Restoring private key requires majority of shards (individual parts can go rogue)
-		* Example: Ethereum Cold Storage for smart contracts
+        * Example: Ethereum Cold Storage for smart contracts
 			* 4 of 7 can retrieve the contract
 			* 6 of 7 can change the contract
-	- Hot storage
-		* Fully insured
-		* Ssingle server requiring a quorum of senior engineers to unlock/unscramble
+    * Hot storage
+        * Fully insured
+        * Single server requiring a quorum of senior engineers to unlock/unscramble
 * Multisig Vault
 	* <https://www.coinbase.com/multisig>
 	* Cold Storage as-a-Service (User Key, Shared Key, Coinbase Key)

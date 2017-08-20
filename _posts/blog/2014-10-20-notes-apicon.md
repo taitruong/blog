@@ -80,7 +80,7 @@ Here are my notes on some of the presentations:
 #### The future of API Moneytization (apinetwork.io)
 
 * using APIcoins (based on bitcoins) to moneytize API access and incentivize use
-* http://www.apinetwork.co
+* (http://www.apinetwork.co)
 * APIcoins are build on top of Bitcoin ledger
   * leveraging security infrastructure of bit coin
   * uses a technique called 'coloring': adding additional metadata to ledger to make it distinct from Bitcoins
@@ -97,7 +97,7 @@ Here are my notes on some of the presentations:
 * New approaches like 'prove the stake' reduce computational power
 * APINetwork incentivizes adding new services through issue of APIcoins
 
-#### Follow-up floor discussions:
+#### Follow-up floor discussions
 
 * Using blockchain algorithm for notaries, public ledgers like land registry, contracts, etc
 * But human interactions are not simply back and white: for instance one can avoid or mitigate bankruptcy by paying of half of the contract (partial transactions)

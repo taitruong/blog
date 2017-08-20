@@ -78,7 +78,7 @@ It was a more developer focussed conference than Thingscon with an heavy emphasi
     * Gateway as aggregator and hiding Coap endpoints on devices
     * Coap creates REST endpoints on device for remote access
 
-#### From washing machines to power plants:
+#### From washing machines to power plants
 
 * Network topologies
   * local (is it part of IoT?)
@@ -96,8 +96,8 @@ It was a more developer focussed conference than Thingscon with an heavy emphasi
   * Device identification and privacy
 * Lego-based approach
   * Eclipse Ponte as HTTP (REST), MQTT, Coap bridge
-  * https://github.com/mcollina/ascoltatori (pub/sub lib for node.js)
-  * https://github.com/mcollina/mosca (mqtt broker for node.js)
+  * (https://github.com/mcollina/ascoltatori) (pub/sub lib for node.js)
+  * (https://github.com/mcollina/mosca) (mqtt broker for node.js)
 
 #### Embeddable Sensor Networks (demo)
 
@@ -119,26 +119,26 @@ It was a more developer focussed conference than Thingscon with an heavy emphasi
 * Challenges
   * security through obscurity
   * IETF code sizes for various crypto libs and lags
-    * http://tools.ietf.org/html/draft-aks-crypto-sensors-02
-  * http://www.slideshare.net/cpswan/security-protocols-in-constrained-environments
+    * (http://tools.ietf.org/html/draft-aks-crypto-sensors-02)
+  * (http://www.slideshare.net/cpswan/security-protocols-in-constrained-environments)
   * No encryption / security shield for Arduino
   * Key distribution
     * usually at manufacturing time
     * complex to update
   * Password suck for humans, they suck even more for devices
     * Tim Bray: OAuth2 token are like a hotel room key
-    * https://www.tbray.org/ongoing/When/201x/2013/05/24/Access-Token-Hotel-Key
+    * (https://www.tbray.org/ongoing/When/201x/2013/05/24/Access-Token-Hotel-Key)
   * Federated Identity
     * meaningful consent mechanism
     * use Oauth token for use in API calls instead of password
     * bootstrapping through device mgmt
     * oauth plugin for Mosquitto MQTT broker
-      * http://pzf.fremantle.org/2013/11/using-oauth-20-with-mqtt.html
-      * https://groups.google.com/forum/#!msg/mqtt/Y1KnH3F8uuw/JC4a9sJi0icJ
+      * (http://pzf.fremantle.org/2013/11/using-oauth-20-with-mqtt.html)
+      * (https://groups.google.com/forum/#!msg/mqtt/Y1KnH3F8uuw/JC4a9sJi0icJ)
     * put oauth token on device
     * scope to be limited to topics the device can publish to
     * support token refresh
 * Checkout GSMA Mobile Connect (http://gsmamobileeconomy.com/gsmamc/)
   * mobile alternative to OpenID Connect ?
 * WSO2 Reference Architecture for IoT
-  * http://www.slideshare.net/wso2.org/io-t-referencearchitecturewebinar
+  * (http://www.slideshare.net/wso2.org/io-t-referencearchitecturewebinar)
