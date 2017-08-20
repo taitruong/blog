@@ -6,7 +6,6 @@ categories: blog
 tags: [conference, development, culture]
 author: hlgr360
 share: true
-date: 2015-07-02
 ---
 
 (this post was originally published on the [Haufe Development Blog](http://work.haufegroup.io))
