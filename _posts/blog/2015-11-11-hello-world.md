@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to start a developer blog"
-excerpt: "Haufe Blog: The 'Hello World' Post"
+excerpt: "Haufe Blog: Why culture is my important task"
 categories: blog
 tags: [culture]
 author: hlgr360
@@ -10,7 +10,7 @@ share: true
 
 (this post was originally published on the [Haufe Development Blog](http://work.haufegroup.io))
 
-So how does one start a developer blog? It is pretty intimidating to look at blank editor (BTW, I use [Mou](http://25.io/mou/) to write this post ;) and think about some witty content, some heading which would rope you in and make you want to read what we have to say. But why should you? And who are we anyhow?
+So how does one start a developer blog? It is pretty intimidating to look at blank editor to write this post ;) and think about some witty content, some heading which would rope you in and make you want to read what we have to say. But why should you? And who are we anyhow?
 
 So lets start with first things first. **Welcome to our Haufe Developer Blog**. 
 We - that is our development and design community at Haufe. And we are having a problem. No, it is not that we are sitting in Freiburg on the edge of the beautiful Black Forest in Germany. It is neither that we are a software company with close to 350 million EUR in yearly revenue you probably never heard of (you might have heard of Lexware though).
