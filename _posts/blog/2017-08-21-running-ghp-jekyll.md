@@ -25,8 +25,8 @@ So it is only consequent that I first try to liberate my own content from Wordpr
 I picked the [So Simple Theme](https://mademistakes.com/work/so-simple-jekyll-theme/) and now had to come up with a way to generate the website. Obviously I could have done it [manually](http://varunbpatil.github.io/2013/07/06/jekyll-build-fail/#.WZV5qK2B3re) but that feelt wrong. No, if we are serious about 'content-as-code' than we should hold ourselfs to the same standard for publishing content as we do on building code. If I check-in a new post, I expect the toolchain to pick up the change and rebuild the site and deploy it automatically. I wanted a CI/CD pipeline for publishing content. A few google queries later I had found what I was looking for: [Using Travis CI to build a Jekyll site](http://pauldambra.github.io/using-travis-to-build-jekyll.html). Combining the manual build script with [travis-ci](http://travis-ci.org) gave me a sweet solution to have my cake and eat it too, all within a single Github repo. You can find the final build script [here](https://github.com/hlgr360/blog/blob/master/build-site.sh).
 
 <figure class="half">
-	<img src="blog/images/running-ghp-jekyll/travis-ci.png" alt="travis-ci">
-	<img src="blog/images/running-ghp-jekyll/travis-log.png" alt="travis-log">
+	<img src="images/running-ghp-jekyll/travis-ci.png" alt="travis-ci">
+	<img src="images/running-ghp-jekyll/travis-log.png" alt="travis-log">
 	<figcaption>Travis-CI build screens.</figcaption>
 </figure>
 
