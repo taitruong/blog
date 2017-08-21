@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to start a developer blog"
-excerpt: "Haufe Blog: Why culture is my most important task"
+excerpt: "Haufe Blog: Why culture is my most important task as CTO"
 categories: blog
 tags: [culture]
 author: hlgr360
