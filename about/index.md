@@ -14,11 +14,11 @@ I have a Passion for Business.
 I am a Software Developer with an MBA.  
 I am an Entrepreneur, Coder, Maker, Father, Husband. 
 
-## whoami.v2 (Professional[^1])
+## whoami.v2 (Professional)
 
 Experienced technical executive - MBA in Global Business and Entrepreneurship - Over 20 years of hand-on software development experience - Over 10 years of practical product and business development experience – Experienced working in large enterprises, privately-owned mid-sized companies and fast-growing startups – Proven leadership in fast paced business- and technology-driven environments – Thinking from the customer perspective - Combining passion for the business with love for technology – Always focusing on optimizing the whole, not its parts – Strong believer in lifelong learning, self-actualization and Lean thinking – Helping organization’s to scale and archive excellence.
 
-[^1] You can find me on [LinkedIn](https://www.linkedin.com/in/hrreinhardt/) and [XING](https://www.xing.com/profile/Holger_Reinhardt7).
+You can find me on [LinkedIn](https://www.linkedin.com/in/hrreinhardt/) and [XING](https://www.xing.com/profile/Holger_Reinhardt7).
 
 ## whoami.v3 (Speaker Bio)
 
