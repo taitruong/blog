@@ -19,3 +19,6 @@ Experienced technical executive - MBA in Global Business and Entrepreneurship - 
 
 ## whoami.v3 (Speaker Bio)
 I am the CTO of the [Haufe-Lexware Group](http://haufegroup.com), one of the leading digital media and business services companies in Germany. I am also co-founder and chief-developer of [launchd.de](http://launchd.de), a business incubator platform. I have over 20 years of software development experience in Telecom, Middleware, and SOA products in enterprises and startups. Prior to joining Haufe-Lexware, I was API Evangelist, Product Architect and Business Developer for Layer7 Technologies. Before joining Layer7 I was part of the in-house incubator team at the IBM WebSphere CTO office working on Hybrid Cloud and the IBM Appliance Foundation. My previous companies include DataPower Technologies, Lucent Technology, and Hughes Network Systems.
+
+## whoami.v4 (Social)
+{% twitter https://twitter.com/hlgr360 maxwidth=500 limit=10 %}
