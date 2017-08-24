@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Taking back control of your content - Developer style
+title: "Taking back control of your content - Developer style"
 excerpt: "How to run a fully featured Jekyll blog on Github using CI/CD"
 categories: blog
 tags: [development, content]
