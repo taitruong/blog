@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="https://hlgr360.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hlgr360.github.io/blog/" rel="alternate" type="text/html" /><updated>2017-08-24T20:05:21+00:00</updated><id>https://hlgr360.github.io/blog/</id><title type="html">Holger Reinhardt</title><subtitle>I love building products.</subtitle><entry><title type="html">Building SentinentAI mod for Minecraft</title><link href="https://hlgr360.github.io/blog/blog/sentinent-ai-minecraft/" rel="alternate" type="text/html" title="Building SentinentAI mod for Minecraft" /><published>2017-08-24T00:00:00+00:00</published><updated>2017-08-24T00:00:00+00:00</updated><id>https://hlgr360.github.io/blog/blog/sentinent-ai-minecraft</id><content type="html" xml:base="https://hlgr360.github.io/blog/blog/sentinent-ai-minecraft/">&lt;p&gt;The background to this multi-layered story requires a bit of patience on part of the reader but I  hope it will be worth it.&lt;/p&gt;
+
+&lt;p&gt;First layer and setting the scene: You see, it is summer in good old Europe and vacation time is upon us. A couple of years ago my wife and I decided to not longer postpone our dream vacations of long distance hiking across Germany and Europe until our retirement, but start doing it now - with 3 kids and a dog in tow. This summer we were planning on hiking across the Black Forest on an old pigrims path. Since it is only us and the kids, those hikes tend to be an extremly intense yet very rewarding time for us as a family. There is no distraction, no gadgets - just nature, the long and winding path, two parents and three kids and the distinct possibility of ice cream at the end of a long day. Needless to say we have settled into some routine, like the kids telling their stories to us: made up or real - it doesn’t matter. It is a time of talking and bonding over having to hike through rain and heat, forest and field.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;/blog/images/sentinent-ai-minecraft/blackforest.jpg&quot; alt=&quot;black-forest&quot; /&gt;
+	&lt;figcaption&gt;Somewhere in the Black Forest.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Second layer and describing my state of mind: Recently I got back into reading Science Fiction and one of the best new books I came across was &lt;a href=&quot;https://www.amazon.com/Long-Small-Angry-Planet-Wayfarers/dp/0062444131&quot;&gt;The Long Way to a Small, Angry Planet&lt;/a&gt; by &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Long_Way_to_a_Small,_Angry_Planet&quot;&gt;Becky Chamber&lt;/a&gt;. I got completely lost in the story and was delighted to find that she had recently published a sequel called &lt;a href=&quot;https://www.amazon.com/Closed-Common-Orbit-Wayfarers/dp/0062569406&quot;&gt;A Closed and Common Orbit&lt;/a&gt;. In the second book one of the main characters is the Spaceship AI system from the first book which had gained conciousness and had by now been transfered into autonomous human shell. I followed it by reading &lt;a href=&quot;https://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/0307887448/&quot;&gt;Ready Player One&lt;/a&gt; from &lt;a href=&quot;https://en.wikipedia.org/wiki/Ready_Player_One&quot;&gt;Ernest Cline&lt;/a&gt; describing a dystopian future where the only remaining place to go to is an immersive virtual reality game (it reminded me in the basic layout of the story on &lt;a href=&quot;https://www.amazon.com/Snow-Crash-Neal-Stephenson-ebook/dp/B002RI9KAE&quot;&gt;Snowcrash&lt;/a&gt; by Neal Stephenson).&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;img src=&quot;/blog/images/sentinent-ai-minecraft/A-long-way.png&quot; alt=&quot;long-way&quot; /&gt;
+	&lt;img src=&quot;/blog/images/sentinent-ai-minecraft/A-closed-orbit.png&quot; alt=&quot;common-orbit&quot; /&gt;
+	&lt;figcaption&gt;The Wayfarer Series from Becky Chambers.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Third layer is what my kids are obsessing at the moment: &lt;a href=&quot;http://minecraft.org&quot;&gt;Minecraft&lt;/a&gt; … I got my oldest son the book &lt;a href=&quot;https://www.amazon.com/Minecraft-Modding-Forge-Family-Friendly-Building/dp/1491918896&quot;&gt;Minecraft Modding with Forge: A Family-Friendly Guide&lt;/a&gt; and ever since then I have been on the hook helping him programming &lt;a href=&quot;https://github.com/alx365/minecraft_mods&quot;&gt;Minecraft Mods&lt;/a&gt; in Java. And I - quite literally - got back into the game myself. And I have to admit that I am impressed by the creative freedom and extensibility of that game, lemding itself for so much more than just building blocks. From &lt;a href=&quot;http://qcraft.org/about/&quot;&gt;Quantmechanics&lt;/a&gt; to &lt;a href=&quot;https://micdoodle8.com/mods/galacticraft/&quot;&gt;space travel&lt;/a&gt; to &lt;a href=&quot;http://www.computercraft.info&quot;&gt;programmable computer&lt;/a&gt;, the variety and creativity is just mindboggling.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;/blog/images/sentinent-ai-minecraft/qcraft.png&quot; alt=&quot;qcraft&quot; /&gt;
+	&lt;figcaption&gt;QCraft: Minecraft Rocks Quantum Rules.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Forth layer is my current role as CTO of fairly large sized company, with all its benefits and challenges. One of the benefits of my role is that I can freely go to conferences and learn about the state of the art (i.e. neuronal networks, serverless, machine learning, blockchain, etc). One of the bigger frustrations of my role is that my job is heavy on management and strategy and relatively light on actually doing some of those things. For someone like me - who has been writing software since I was 12 - this is hard to accept. I have alwasy seen myself as being a very strong technical CTO but it is getting harder and harder to maintain.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;/blog/images/sentinent-ai-minecraft/cto-survival-guide.png&quot; alt=&quot;cto-survival&quot; /&gt;
+	&lt;figcaption&gt;CTO Survival Guide, from rainforestqa.com.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Ok, so lets mash those layers together and see if we can get this story wrapped up. As we were hiking across the blackforest, my daughter told me a recent dream of her having a friend in minecraft who she can talk to ‘like Alexa’. And in my head a million and one lights lit up and suddenly had this vision of using Minecraft to explore some of those AI concepts and natural language interfaces. And because of Becky Chamber’s books I knew exactly how this would look like. And I knew exactly with what I would start … with one of the oldest natural language processing programs I remember from my days programming with my Dad called &lt;a href=&quot;https://en.wikipedia.org/wiki/ELIZA&quot;&gt;Eliza&lt;/a&gt;. But I would not stop there but I would like to give it the voice of Alexa, maybe throw in some of the &lt;a href=&quot;https://azure.microsoft.com/en-us/services/cognitive-services/&quot;&gt;Cognitive Services from Azure&lt;/a&gt;, and the recently released &lt;a href=&quot;https://conversationai.github.io&quot;&gt;Conversational AI from Google&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I don’t think I will go as far as &lt;a href=&quot;https://github.com/Microsoft/malmo&quot;&gt;Project Malmo&lt;/a&gt; from &lt;a href=&quot;https://www.microsoft.com/en-us/research/project/project-malmo/&quot;&gt;Microsoft Research&lt;/a&gt; - but not because of a lack of aspiration, but more realistically because of lack of time.&lt;/p&gt;
+
+&lt;p&gt;I decided to call this sweet little project of mine &lt;a href=&quot;https://github.com/hlgr360/SentinentAImod&quot;&gt;SentinentAIMod&lt;/a&gt; and I sure hope that my kids - and especially my daughter - keep me honest and on track to actually stay with it for long enough to have learned some of those technologies. I did spend some time with my son, setting him up with his own &lt;a href=&quot;https://github.com/alx365/minecraft_mods&quot;&gt;Github Repo&lt;/a&gt; and fixing his mod build process.&lt;/p&gt;
+
+&lt;p&gt;If you want to tack along for the journey, stay tuned and check out my blog or subscribe to the &lt;a href=&quot;https://github.com/hlgr360/SentinentAImod&quot;&gt;SentinentAIMod&lt;/a&gt; repo.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;/blog/images/sentinent-ai-minecraft/npc.png&quot; alt=&quot;npc&quot; /&gt;
+	&lt;figcaption&gt;NPC Character, from minecraft.org.&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name>Holger Reinhardt</name><email>holger@launchd.de</email></author><category term="development" /><category term="minecraft" /><category term="ai" /><summary type="html">Getting back into the game - quite literally</summary></entry><entry><title type="html">Taking back control of your content - Developer style</title><link href="https://hlgr360.github.io/blog/blog/running-ghp-jekyll/" rel="alternate" type="text/html" title="Taking back control of your content - Developer style" /><published>2017-08-21T00:00:00+00:00</published><updated>2017-08-21T00:00:00+00:00</updated><id>https://hlgr360.github.io/blog/blog/running-ghp-jekyll</id><content type="html" xml:base="https://hlgr360.github.io/blog/blog/running-ghp-jekyll/">&lt;p&gt;Back when I started as API Evangelist for the &lt;a href=&quot;http://apiacademy.co&quot;&gt;Layer7 API Academy&lt;/a&gt; blogging, presenting and speaking in public became part of my job description. And very quickly I realized that something was horribly broken with the way we manage content. Somehow there was a fundamental disconnect between the level of control and agility I had when writing code and writing content. Doing the latter alwasy seem to involve awkward manual review processes and word documents and formatting and endless emails back and forth with different versions and initials.&lt;/p&gt;
+
+&lt;p&gt;Since my new role coincided with a friend and I launching &lt;a href=&quot;http://launchd.de&quot;&gt;launchd.de&lt;/a&gt; - our lean business development platform - we tried to pick better tooling for our private blogging. Enter &lt;a href=&quot;http://wordpress.org&quot;&gt;wordpress.org&lt;/a&gt;. Compared to the corporate blogging this was already quite a step up in terms of control .. but formatting still was more Word like .. and - looking back - it still lacked the clarity of versioning and diffing and collaborative features I am used to when writing code.&lt;/p&gt;
+
+&lt;p&gt;In parallel a big topic in the API community was (and still is) &lt;a href=&quot;http://documentation.apievangelist.com&quot;&gt;developer focussed API documentation&lt;/a&gt; with plenty of startups tackling the challenge to create good looking and functional documentation for humans. And the ever present challenge of keeping documentation in sync with the API it describes. This further sensitized me about how (tech) writers and developers can engage in close collabroation to create a single customer facing product, the API.&lt;/p&gt;
+
+&lt;p&gt;Fast forward a year or two and Layer7 was aqcuired by CA Technologies and my ‘precious’ content disappeared together with the Layer7 brand and blog. It just went poof up into the digital ether, leaving me scrambling to reconstruct it. Roughly at the same time I heard first folks mentioning a concept of &lt;strong&gt;Docs-as-Code&lt;/strong&gt; at conferences like &lt;a href=&quot;https://hlgr360.github.io/blog/blog/notes-oscon/&quot;&gt;OSCON&lt;/a&gt;. By that time I was CTO of the &lt;a href=&quot;http://www.haufegroup.com&quot;&gt;Haufe.Group&lt;/a&gt; - and had the means to do it differently. So I decided to host our &lt;a href=&quot;http://work.haufegroup.io&quot;&gt;Developer Blog&lt;/a&gt; on &lt;a href=&quot;https://github.com/Haufe-Lexware/Haufe-Lexware.github.io&quot;&gt;Github&lt;/a&gt;, or rather more precisely &lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt;. And I did not stop there - I took the talk &lt;a href=&quot;https://media.ccc.de/v/froscon2015-1525-pull_requests_not_just_for_code_anymore&quot;&gt;Pull requests, not just for code anymore&lt;/a&gt; to heart and published our CTO Office policies in a private repo as well.&lt;/p&gt;
+
+&lt;p&gt;In the meantime more folks are starting to think about &lt;a href=&quot;http://www.writethedocs.org/guide/docs-as-code/&quot;&gt;Docs-as-Code&lt;/a&gt; and &lt;a href=&quot;http://www.docslikecode.com&quot;&gt;Docs Like Code&lt;/a&gt;: the folks from &lt;a href=&quot;http://www.writethedocs.org&quot;&gt;WriteTheDocs&lt;/a&gt; and &lt;a href=&quot;https://justwriteclick.com&quot;&gt;Ann Gentle&lt;/a&gt; respectively. Anne recently published a book called &lt;a href=&quot;https://justwriteclick.com/books/docs-like-code/&quot;&gt;Docs Like Code&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My gut tells me that there could be even a bigger story yet - why stop at docs, and not just simply apply this model for content in general? &lt;a href=&quot;https://www.haufe.com/en/vision/haufe-group&quot;&gt;HaufeGroup&lt;/a&gt; with its roots as publisher is still producing plenty of valuable content but it is being locked up in traditional, closed-source and proprietory CMS’s. But those ideas are best told in a blog post over at our &lt;a href=&quot;http://work.haufegroup.io&quot;&gt;Haufe.Group blog&lt;/a&gt; site.&lt;/p&gt;
+
+&lt;p&gt;(Update: I just published &lt;a href=&quot;http://work.haufegroup.io/content-as-code/&quot;&gt;Treating our Content as Code: What DevOps and CI/CD can teach us about content publishing.&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;So it is only consequent that I first try to liberate my own content from Wordpress and friends. It should be obvious by now that my new blog will live on Git(hub) and be served through Github Pages. So I could have simply copied the format from our developer blog and be done with it. But to make things more interesting, I decided to go for a fully featured Jekyll blog. Github pages only support very few Jekyll plugins - for a more sophisticated website one needs to run Jekyll outside of Github and only push the generated pages into Github Pages.&lt;/p&gt;
+
+&lt;p&gt;I picked the &lt;a href=&quot;https://mademistakes.com/work/so-simple-jekyll-theme/&quot;&gt;So Simple Theme&lt;/a&gt; and now had to come up with a way to generate the website. Obviously I could have done it &lt;a href=&quot;http://varunbpatil.github.io/2013/07/06/jekyll-build-fail/#.WZV5qK2B3re&quot;&gt;manually&lt;/a&gt; but that feelt wrong. No, if we are serious about ‘content-as-code’ than we should hold ourselfs to the same standard for publishing content as we do on building code. If I check-in a new post, I expect the toolchain to pick up the change and rebuild the site and deploy it automatically. I wanted a CI/CD pipeline for publishing content. A few google queries later I had found what I was looking for: &lt;a href=&quot;http://pauldambra.github.io/using-travis-to-build-jekyll.html&quot;&gt;Using Travis CI to build a Jekyll site&lt;/a&gt;. Combining the manual build script with &lt;a href=&quot;http://travis-ci.org&quot;&gt;travis-ci&lt;/a&gt; gave me a sweet solution to have my cake and eat it too, all within a single Github repo. You can find the final build script &lt;a href=&quot;https://github.com/hlgr360/blog/blob/master/build-site.sh&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;img src=&quot;/blog/images/running-ghp-jekyll/travis-ci.png&quot; alt=&quot;travis-ci&quot; /&gt;
+	&lt;img src=&quot;/blog/images/running-ghp-jekyll/travis-log.png&quot; alt=&quot;travis-log&quot; /&gt;
+	&lt;figcaption&gt;Travis-CI build screens.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;And kudos to the &lt;a href=&quot;http://travis-ci.org&quot;&gt;travis-ci&lt;/a&gt; team for building such an awesome service. A special nice touch was the ability to include the build badges in the README of &lt;a href=&quot;https://github.com/hlgr360/blog&quot;&gt;my blog repo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Having solved the technical challenges, all what was left was a lot of busy work to liberate my content from its various prisons and walled gardens. You are obviously reading this blog already on my new site - so go ahead and explore some of my blog posts, videos and articels. I personally find the &lt;a href=&quot;https://hlgr360.github.io/blog/tags/&quot;&gt;tag page&lt;/a&gt; the easiest way to navigate across my content.&lt;/p&gt;</content><author><name>Holger Reinhardt</name><email>holger@launchd.de</email></author><category term="development" /><category term="content" /><summary type="html">How to run a fully featured Jekyll blog on Github using CI/CD</summary></entry><entry><title type="html">Summary of PayPal InnerSource Summit, 2016</title><link href="https://hlgr360.github.io/blog/blog/summary-paypal-innersource/" rel="alternate" type="text/html" title="Summary of PayPal InnerSource Summit, 2016" /><published>2016-08-24T00:00:00+00:00</published><updated>2016-08-24T00:00:00+00:00</updated><id>https://hlgr360.github.io/blog/blog/summary-paypal-innersource</id><content type="html" xml:base="https://hlgr360.github.io/blog/blog/summary-paypal-innersource/">&lt;p&gt;(this post was originally published on the &lt;a href=&quot;http://work.haufegroup.io&quot;&gt;Haufe Development Blog&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;From April 21st to 22nd, 2016 we were fortunate to attend the &lt;a href=&quot;http://paypal.github.io/InnerSourceCommons/events/&quot;&gt;PayPal Inner Source Summit&lt;/a&gt; in London.&lt;/p&gt;
+
+&lt;p&gt;We first got exposed to the InnerSource concept through a talk by PayPal at the &lt;a href=&quot;https://hlgr360.github.io/blog/blog/notes-oscon/&quot;&gt;OSCON 2015&lt;/a&gt; in Amsterdam in fall of 2015. At that point we were struggling to resolve a multitude of project dependencies on our backend platform team. The modus operandi of the team was highly interrupt driven, reactive and managed largely through tickets raised by other teams looking for changes or additions to existing services. There was precious little time in which the team could proactively reduce technical debt or improve operational efficiency. Needless to say the foundation of the so called ‘Haufe Group Service Platform’ (HGSP) continued to deteriorate. (The HGSP was also the topic of &lt;a href=&quot;http://www.apiacademy.co/resources/api360-microservices-summit-the-automated-monolith/&quot;&gt;my recent talk on the Automated Monolith&lt;/a&gt; at the API360 Microservice conference in New York).&lt;/p&gt;
+
+&lt;p&gt;Before I dive more into the topic, let me first summarize what InnerSource stands for: To apply the concepts of Open Source to the internal software development inside of your company. You can read more about it at the &lt;a href=&quot;http://paypal.github.io/InnerSourceCommons/&quot;&gt;InnerSource Commons&lt;/a&gt; and/or download a free copy of the &lt;a href=&quot;http://www.oreilly.com/programming/free/getting-started-with-innersource.csp&quot;&gt;InnerSource eBook&lt;/a&gt;. If you google it you will also find some articles, for instance &lt;a href=&quot;http://thenewstack.io/github-bloomberg-talk-using-innersource-build-open-source-project-development-behind-company-firewalls/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://www.infoq.com/news/2015/10/innersource-at-paypal&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;What made us excited about the InnerSource concept was the premise to unwind or at least greatly reduce those external dependencies, and thereby freeing up the core team to focus on evolving the platform itself. It does so by offering dependent projects the ability to add their required enhancements to the platform code base vs. having to wait for the platform team do it for them.&lt;/p&gt;
+
+&lt;p&gt;While it appears to be counter-intuitive at first, remember that (a) this is how Open Source works (and you can hardly argue that it does not scale) and (b) the external team regains control over their own project schedule in exchange for  extra work. The latter is an extremely powerful motivator, especially if you consider that the change might be small or incremental, but keeps being deprioritzed by the platform team due to some other feature from some other projects.&lt;/p&gt;
+
+&lt;p&gt;To me there are two macro patterns at work here, which seem to point into the same direction:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Change the perspective from a point solution (add more developer) to changing the motivators in the system (enable external teams to take care of itself). The same can be said about the &lt;a href=&quot;http://readwrite.com/2014/09/17/netflix-chaos-engineering-for-everyone/&quot;&gt;Netflix approach of ‘Chaos Engineering’&lt;/a&gt;. Instead of pretending that QA can catch every bug (and thereby contributing to an illusion of bug-free systems), Netflix deliberatly introduces failure into the system to force engineers to design software anticipating the presence of failure.&lt;/li&gt;
+  &lt;li&gt;Efficiency and Speed are goals at opposite ends (I owe that insight to the folks from Thoughtworks). You can not have both of them at the same time. Microservices (MSA) embrace speed over efficiency through its emphasize on a &lt;code class=&quot;highlighter-rouge&quot;&gt;shared nothing&lt;/code&gt; approach. In effect MSA is saying that databases and app servers are commodity by now and that you do not gain significant business value by using them efficiently. MSA emphasizes duplication and the reduction of cross dependencies over having a central instance which will become the bottleneck.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I would like to thank Danese Cooper and her team for so openly sharing their lessons and knowledge.&lt;/p&gt;
+
+&lt;p&gt;Here are my notes from the various sessions under the &lt;a href=&quot;https://www.chathamhouse.org/about/chatham-house-rule&quot;&gt;Chatham House Rule&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;how-does-innersource-work-at-paypal&quot;&gt;How does InnerSource work at Paypal&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;concept of a trusted &lt;a href=&quot;https://en.wikipedia.org/wiki/Committer&quot;&gt;committer&lt;/a&gt; (TC) within core team&lt;/li&gt;
+  &lt;li&gt;define a formal contributor document&lt;/li&gt;
+  &lt;li&gt;pull request builder
+    &lt;ul&gt;
+      &lt;li&gt;based on jenkins&lt;/li&gt;
+      &lt;li&gt;generates metrics before/after pull
+        &lt;ul&gt;
+          &lt;li&gt;metric can not be worse after merge&lt;/li&gt;
+          &lt;li&gt;contains code checking, style, fortify etc&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;both for internal and external pull requests
+        &lt;ul&gt;
+          &lt;li&gt;peer reviewed pull requests internal&lt;/li&gt;
+          &lt;li&gt;rule: pull requestor can not be pull committer&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;pay attention to InnerSource activation and incentive
+    &lt;ul&gt;
+      &lt;li&gt;need to have documentation
+        &lt;ul&gt;
+          &lt;li&gt;system documentation in markdown in the repo&lt;/li&gt;
+          &lt;li&gt;so keep documentation and source together in same pull request&lt;/li&gt;
+          &lt;li&gt;the teams should have a chance to meet (there difference between inner and open source)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;extrensic vs intrinsic motivation - accept the difference
+    &lt;ul&gt;
+      &lt;li&gt;Core Motivation: It takes too long, lets do it ourself&lt;/li&gt;
+      &lt;li&gt;Learning penalty vs intrinsic understanding of the system&lt;/li&gt;
+      &lt;li&gt;Motivation: customer (only) sees product as a whole
+        &lt;ul&gt;
+          &lt;li&gt;irregardless how many system boundaries are hidden within&lt;/li&gt;
+          &lt;li&gt;Take a customer centric view - take responsibility for the whole stack&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;pull request helps to improve code structure&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;InnerSource as company policy
+    &lt;ul&gt;
+      &lt;li&gt;do to others what you want them to do to you&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Security concerns
+    &lt;ul&gt;
+      &lt;li&gt;developer does not have production access&lt;/li&gt;
+      &lt;li&gt;legal information is isolated&lt;/li&gt;
+      &lt;li&gt;production access nur ueber audited tool
+        &lt;ul&gt;
+          &lt;li&gt;&lt;em&gt;Example for such an audting framework on AWS from Zalando at &lt;a href=&quot;https://stups.io&quot;&gt;https://stups.io&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;workshop&quot;&gt;Workshop&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Existing model: variations of ‘big cheese gets stuff done’
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;I could not find a good explanation for it, but the expression means that some inidvidual’s identity and self-worth are tied to ‘being the one which get stuff done’.&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;OSS Apache Model:
+    &lt;ul&gt;
+      &lt;li&gt;ratio of users/contributors/trusted committers/lead is 1000/100/10/1&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How can we make trusted committer to not be the chokepoint
+    &lt;ul&gt;
+      &lt;li&gt;super powers come with responsibilities
+        &lt;ul&gt;
+          &lt;li&gt;code mentorship (not rewriting)&lt;/li&gt;
+          &lt;li&gt;its like on-boardig new team members&lt;/li&gt;
+          &lt;li&gt;if it is not written down, it does not exist&lt;/li&gt;
+          &lt;li&gt;think of rewards for trusted committer and team
+            &lt;ul&gt;
+              &lt;li&gt;in open source the submissions to projects stay with the contributor&lt;/li&gt;
+              &lt;li&gt;refactoring clues for core team&lt;/li&gt;
+              &lt;li&gt;lazy documentation through discussion threads&lt;/li&gt;
+              &lt;li&gt;also extrinsic rewards
+                &lt;ul&gt;
+                  &lt;li&gt;i.e. I give you a beer for that, or Badges&lt;/li&gt;
+                  &lt;li&gt;Could there be rewards for archiving committer status on external projects?&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Tooling for inner source
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://innersourcecommons.org&quot;&gt;http://innersourcecommons.org&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=r4QU1WJn9f8&quot;&gt;https://www.youtube.com/watch?v=r4QU1WJn9f8&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.inner-sourcing.com&quot;&gt;http://www.inner-sourcing.com&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;KPI’s to measure the success of the ‘openness’
+    &lt;ul&gt;
+      &lt;li&gt;To change culture, you can not just do it from the inside, but also create pressure from the outside&lt;/li&gt;
+      &lt;li&gt;Create transparency by making all code repos by default visible/public within the company&lt;/li&gt;
+      &lt;li&gt;Challenges
+        &lt;ul&gt;
+          &lt;li&gt;How to get PO bought into it (most of them like management by exception and &lt;code class=&quot;highlighter-rouge&quot;&gt;big cheese&lt;/code&gt;)&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;If ownership is culture, part of it is keeping others out&lt;/strong&gt;
+            &lt;ul&gt;
+              &lt;li&gt;this code is mine, this is yours
+                &lt;ul&gt;
+                  &lt;li&gt;it must be ok to fail for ownership to stop being exclusive&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Operational responsibility
+            &lt;ul&gt;
+              &lt;li&gt;agreement on the time window of operational responsibility for  merged patch by contributor&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Training of trusted committers
+    &lt;ul&gt;
+      &lt;li&gt;keeper of the flame&lt;/li&gt;
+      &lt;li&gt;not everybody will be good at this (rotating)&lt;/li&gt;
+      &lt;li&gt;its all about mentorship (did you get that far by yourself?)
+        &lt;ul&gt;
+          &lt;li&gt;what mentor do you want to be&lt;/li&gt;
+          &lt;li&gt;growing a new culture&lt;/li&gt;
+          &lt;li&gt;do it a sprint at the time&lt;/li&gt;
+          &lt;li&gt;have rules of engagement&lt;/li&gt;
+          &lt;li&gt;why - because it is leadership (it is about mentoring)&lt;/li&gt;
+          &lt;li&gt;visible rewards
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;http://openbadges.org&quot;&gt;http://openbadges.org&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Mozilla_Open_Badges&quot;&gt;https://en.wikipedia.org/wiki/Mozilla_Open_Badges&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;interviews-and-lessons-learnt&quot;&gt;Interviews and Lessons Learnt&lt;/h3&gt;
+
+&lt;h4 id=&quot;company-1&quot;&gt;Company 1&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;from central dev to separate dev per business units&lt;/li&gt;
+  &lt;li&gt;resulting in a lot of redundancy over the years&lt;/li&gt;
+  &lt;li&gt;challenge:
+    &lt;ul&gt;
+      &lt;li&gt;how can we speed up product development&lt;/li&gt;
+      &lt;li&gt;AND keep the place interesting for engineers to join the company&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;company-2&quot;&gt;Company 2&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;optimize developer productivity
+    &lt;ul&gt;
+      &lt;li&gt;low friction, high adaption&lt;/li&gt;
+      &lt;li&gt;ease of use, ease of contribution&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;developer community is something to opt-in individually, can not be mandatory
+    &lt;ul&gt;
+      &lt;li&gt;how to motivate people:
+        &lt;ul&gt;
+          &lt;li&gt;is it a personality strait or can it be taught?&lt;/li&gt;
+          &lt;li&gt;are people not motivated or do not know how to?&lt;/li&gt;
+          &lt;li&gt;was/is there a hiring bias discouraging the right dev to join&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;developer happiness through transparency&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;if you have a PO who is only focussed on his goals, he will eventually loose the team&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;company-3&quot;&gt;Company 3&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;someone critiquing your code is like someone reading your journal&lt;/li&gt;
+  &lt;li&gt;someone critiquing your service is like someone complaining about your children (one step removed)&lt;/li&gt;
+  &lt;li&gt;there is an implizit cultural hierarchy/snobbism of programmers depending how hard it is to learn and how many years you needed to put it into&lt;/li&gt;
+  &lt;li&gt;law of unintended consequences (start with experiments)&lt;/li&gt;
+  &lt;li&gt;modularize software such that it becomes more intelligible for other people
+    &lt;ul&gt;
+      &lt;li&gt;accept diskrete contributions and mentor them through it, observe to learn what to document and what to modularize&lt;/li&gt;
+      &lt;li&gt;run experiments long enough to gather useful data (engineers tend to rather write code than listening to feedback)&lt;/li&gt;
+      &lt;li&gt;trusted committers need to be taken out sprint rotation for the duration and focus on mentoring (but can be escalated in with clear tracking of costs)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;company-4&quot;&gt;Company 4&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;paper comparing different appropaches &lt;a href=&quot;https://www.computer.org/csdl/mags/so/preprint/06809709.pdf&quot;&gt;“Inner Source - Adapting Open Source Within Organizations”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;factors for success:
+    &lt;ul&gt;
+      &lt;li&gt;Candidate product&lt;/li&gt;
+      &lt;li&gt;Stakeholders&lt;/li&gt;
+      &lt;li&gt;Modularity,&lt;/li&gt;
+      &lt;li&gt;Bazaar-style Development
+        &lt;ul&gt;
+          &lt;li&gt;maintenance is continuous: moving target or dead corpse&lt;/li&gt;
+          &lt;li&gt;caters to the individual style&lt;/li&gt;
+          &lt;li&gt;quick turnaround but potentially incoherent approach&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Bazaar-style quality assurance
+        &lt;ul&gt;
+          &lt;li&gt;(true) peer review of contributions&lt;/li&gt;
+          &lt;li&gt;releasing regularly improves quality
+            &lt;ul&gt;
+              &lt;li&gt;no rushing in code&lt;/li&gt;
+              &lt;li&gt;releasing becomes no big deal&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Standardized or at least compatible tools
+        &lt;ul&gt;
+          &lt;li&gt;incompatible toolsets inhibit collaboration&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Coordination &amp;amp; leadership to support meritocracy
+        &lt;ul&gt;
+          &lt;li&gt;advocate and evangelists
+            &lt;ul&gt;
+              &lt;li&gt;emerging leadership&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Transparency
+        &lt;ul&gt;
+          &lt;li&gt;needed for visibility&lt;/li&gt;
+          &lt;li&gt;cultural fit to accept working in a fishbowl
+            &lt;ul&gt;
+              &lt;li&gt;1:n communication over 1:1&lt;/li&gt;
+              &lt;li&gt;management support
+                &lt;ul&gt;
+                  &lt;li&gt;the importance of slack (pict of number slide)&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Motivation
+        &lt;ul&gt;
+          &lt;li&gt;There is &lt;strong&gt;‘learned helplessness’ that is afflicting teams without slack and some sense of self-determination&lt;/strong&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;On a side note: For me personally it was eye opening to discuss the implications of an institutional bias towards &lt;code class=&quot;highlighter-rouge&quot;&gt;ownership&lt;/code&gt; and ‘single responsibility’ and how this can counteract sharing and agility. It appears that too much focus on ownership might directly contribute towards risk avoidance and lack of openness:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;because being the owner means &lt;code class=&quot;highlighter-rouge&quot;&gt;if it breaks it is on me&lt;/code&gt; and therefor I will do everything in my power to limit my risk&lt;/li&gt;
+  &lt;li&gt;which counteracts agility and controlled risk taking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The key here seems to be an institutional bias on ‘if it breaks’. If the default assumption is that it can go wrong, it is clear that we would prefer to have one person responsible. But obviously embracing the possibility of (controlled) failure is what makes all the difference in execution speed between a startup and an enterprise, between a ‘fail fast’ and a risk avoidance culture. But this is a topic worthy of a separate blog post.&lt;/p&gt;</content><author><name>Holger Reinhardt</name><email>holger@launchd.de</email></author><category term="conferences" /><category term="development" /><category term="culture" /><summary type="html">Haufe Blog: Notes from PayPal InnerSource Summit</summary></entry><entry><title type="html">The Automated Monolith</title><link href="https://hlgr360.github.io/blog/blog/automated-monolith/" rel="alternate" type="text/html" title="The Automated Monolith" /><published>2016-08-03T00:00:00+00:00</published><updated>2016-08-03T00:00:00+00:00</updated><id>https://hlgr360.github.io/blog/blog/automated-monolith</id><content type="html" xml:base="https://hlgr360.github.io/blog/blog/automated-monolith/">&lt;p&gt;This talk tells the story of Haufe Group’s journey toward a microservice architecture, including the pre-requisites they needed to include along the way.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/m6oNDYZ4xso&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</content><author><name>Holger Reinhardt</name><email>holger@launchd.de</email></author><category term="video" /><category term="architecture" /><summary type="html">Talk at API360 Microservices Summit in New York, 2016</summary></entry><entry><title type="html">Summary of QCon New York, 2016</title><link href="https://hlgr360.github.io/blog/blog/qcon-ny-summary/" rel="alternate" type="text/html" title="Summary of QCon New York, 2016" /><published>2016-07-02T00:00:00+00:00</published><updated>2016-07-02T00:00:00+00:00</updated><id>https://hlgr360.github.io/blog/blog/qcon-ny-summary</id><content type="html" xml:base="https://hlgr360.github.io/blog/blog/qcon-ny-summary/">&lt;p&gt;(this post was originally published on the &lt;a href=&quot;http://work.haufegroup.io&quot;&gt;Haufe Development Blog&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Here is a quick summary of my highlights of QCon New York from June 13th to June 15th, 2016. The following are the notes from sessions I attended. To make it easy to pick the most interesting ones, I grouped them according to topics. Slides from other presentations can be downloaded directly from the &lt;a href=&quot;https://qconnewyork.com/ny2016/schedule/tabular&quot;&gt;QCon Schedule&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;culture&quot;&gt;Culture&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#how-to-optimize-your-culture-for-learning&quot;&gt;How to optimize your culture for learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#learnings-from-a-culture-first-startup&quot;&gt;Learnings from a culture first startup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;devops&quot;&gt;Devops&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#implementing-infrastructure-as-code&quot;&gt;Implementing Infrastructure as Code&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#think-before-you-tool&quot;&gt;Think before you tool&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#container-mgmt-at-netflix&quot;&gt;Container mgmt at Netflix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;architecture&quot;&gt;Architecture&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#what-they-do-not-tell-you-about-microservices&quot;&gt;What they do not tell you about microservices&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#lessons-learned-on-ubers-journey-into-microservices&quot;&gt;Lessons learned on Ubers journey into microservices&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-deadly-sins-of-microservices&quot;&gt;The deadly sins of microservices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;security&quot;&gt;Security&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#security-in-cloud-environments&quot;&gt;Security in cloud environments&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#cryptocurrency-key-storage&quot;&gt;Cryptocurrency key storage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;implementing-infrastructure-as-code&quot;&gt;Implementing Infrastructure as Code&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qconnewyork.com/ny2016/presentation/implementing-infrastructure-code&quot;&gt;Description&lt;/a&gt; and &lt;a href=&quot;https://qconnewyork.com/system/files/presentation-slides/implementing_iac_-_qcon_nyc_2016.pdf&quot;&gt;slides&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Website at &lt;a href=&quot;http://infrastructure-as-code.com&quot;&gt;http://infrastructure-as-code.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Motivations:
+    &lt;ul&gt;
+      &lt;li&gt;speed: get something to market fast, iterate, continuously improve it
+        &lt;ul&gt;
+          &lt;li&gt;heavy process to reduce danger vs everything goes&lt;/li&gt;
+          &lt;li&gt;goal: be able to make changes rapidly, frequently and responsibly&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;challenges
+        &lt;ul&gt;
+          &lt;li&gt;server sprawl: config drift, automation fear cycle&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Infrastructure-as-Code:
+    &lt;ul&gt;
+      &lt;li&gt;Applying software engineering tools to managing the infrastructure&lt;/li&gt;
+      &lt;li&gt;Unattended automation (enforces discipline, discourages ‘out-of-band’ changes&lt;/li&gt;
+      &lt;li&gt;Changes need to be tested as well, before doing a &lt;strong&gt;DevOoops&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;See &lt;a href=&quot;http://serverspec.org&quot;&gt;http://serverspec.org&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;The process for applying changes is auditable (the responsible part)
+        &lt;ul&gt;
+          &lt;li&gt;Changes are tracked by commit&lt;/li&gt;
+          &lt;li&gt;Automation enforces that processes are executed&lt;/li&gt;
+          &lt;li&gt;See &lt;a href=&quot;http://47ron.in/blog/2015/01/16/terraform-dot-io-all-hail-infrastructure-as-code.html&quot;&gt;http://47ron.in/blog/2015/01/16/terraform-dot-io-all-hail-infrastructure-as-code.html&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Think about duplication
+    &lt;ul&gt;
+      &lt;li&gt;Re-use by forking: divergence vs decoupling&lt;/li&gt;
+      &lt;li&gt;Sharing elements avoid monoliths - optimize to simplify changes&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;think-before-you-tool&quot;&gt;Think before you tool&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qconnewyork.com/ny2016/presentation/think-before-you-tool-opinionated-journey&quot;&gt;Description&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Centralized Log Analysis: &lt;a href=&quot;https://prometheus.io&quot;&gt;https://prometheus.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Microservice dependency graphing and monitoring: &lt;a href=&quot;http://zipkin.io&quot;&gt;http://zipkin.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;security-in-cloud-environments&quot;&gt;Security in cloud environments&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qconnewyork.com/ny2016/presentation/access-secret-management-cloud-services&quot;&gt;Description&lt;/a&gt; and &lt;a href=&quot;https://qconnewyork.com/system/files/presentation-slides/identity_access_and_secret_management_-_ryan_lane_-_qcon.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Additional links for password and secret managers
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://docs.ansible.com/ansible/playbooks_vault.html&quot;&gt;http://docs.ansible.com/ansible/playbooks_vault.html&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://gist.github.com/tristanfisher/e5a306144a637dc739e7&quot;&gt;https://gist.github.com/tristanfisher/e5a306144a637dc739e7&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;http://cheat.readthedocs.io/en/latest/ansible/secrets.html&quot;&gt;http://cheat.readthedocs.io/en/latest/ansible/secrets.html&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DavidAnson/PassWeb&quot;&gt;https://github.com/DavidAnson/PassWeb&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://passwork.me/info/enterprise/&quot;&gt;https://passwork.me/info/enterprise/&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://lyft.github.io/confidant/&quot;&gt;https://lyft.github.io/confidant/&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Detecting secrets in source code: &lt;a href=&quot;https://eng.lyft.com/finding-a-needle-in-a-haystack-b7e0627b01f6#.f0lazahyo&quot;&gt;https://eng.lyft.com/finding-a-needle-in-a-haystack-b7e0627b01f6#.f0lazahyo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;how-to-optimize-your-culture-for-learning&quot;&gt;How to optimize your culture for learning&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qconnewyork.com/ny2016/presentation/optimize-your-culture-learning&quot;&gt;Description&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;About creating high learning environments in &lt;a href=&quot;https://www.recurse.com&quot;&gt;Recurse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Company mantra ‘You are doing your thing at your time, and we bring the place and the community’&lt;/li&gt;
+  &lt;li&gt;RC is partnering with companies:
+    &lt;ul&gt;
+      &lt;li&gt;value for participants improve their software skills,&lt;/li&gt;
+      &lt;li&gt;value to companies: hiring access&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Motivation
+    &lt;ul&gt;
+      &lt;li&gt;Fear is an obstacle to learning
+        &lt;ul&gt;
+          &lt;li&gt;People don’t want to look stupid&lt;/li&gt;
+          &lt;li&gt;Create a positive feel around ‘I do not know’&lt;/li&gt;
+          &lt;li&gt;RC social rules to reduce fear
+            &lt;ul&gt;
+              &lt;li&gt;No feigning surprise (What, you don’t know?)&lt;/li&gt;
+              &lt;li&gt;No “well, actually” (do not correct details which are irrelevant for the conversation)&lt;/li&gt;
+              &lt;li&gt;No backset driving (lobbying criticism over the wall without participating)&lt;/li&gt;
+              &lt;li&gt;No subtle-isms (no racism, sexism, even in a subtle way: where do you really come from?)&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What works for us
+    &lt;ul&gt;
+      &lt;li&gt;Being transparent about our beliefs re-enforces learning&lt;/li&gt;
+      &lt;li&gt;Being vocal about our values&lt;/li&gt;
+      &lt;li&gt;Treat people like adults
+        &lt;ul&gt;
+          &lt;li&gt;Don’t need to check in on people every day&lt;/li&gt;
+          &lt;li&gt;Choice to participate in activities, meetings, etc vs mandating participation&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Key message
+    &lt;ul&gt;
+      &lt;li&gt;Hire attitude over skill&lt;/li&gt;
+      &lt;li&gt;You can learn any skill, but you can’t learn curiosity&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;learnings-from-a-culture-first-startup&quot;&gt;Learnings from a culture first startup&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qconnewyork.com/ny2016/presentation/learnings-culture-first-startup&quot;&gt;Description&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;About creating the right culture at &lt;a href=&quot;http://buffer.com&quot;&gt;Buffer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;How do we know how to build a good culture&lt;/li&gt;
+  &lt;li&gt;What is culture
+    &lt;ul&gt;
+      &lt;li&gt;In every team: the explicit and implicit behaviors which are valued by the team&lt;/li&gt;
+      &lt;li&gt;Evolves and changes with each hiring&lt;/li&gt;
+      &lt;li&gt;Best teams carefully manage culture&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;At buffer culture is as important as the product
+    &lt;ul&gt;
+      &lt;li&gt;The result are our &lt;a href=&quot;https://open.buffer.com/buffer-values/&quot;&gt;buffer values&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Crafting culture is hard: you hire for culture, you should be firing for culture&lt;/li&gt;
+      &lt;li&gt;Build the core team which aligns on culture
+        &lt;ul&gt;
+          &lt;li&gt;Interviews/hiring around culture fit&lt;/li&gt;
+          &lt;li&gt;Spend less time convincing people, more time finding people who are already convinced&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;In order to hire for cultural fit, the team has to be on the same page&lt;/li&gt;
+      &lt;li&gt;Lessons learnt from experimenting with culture
+        &lt;ul&gt;
+          &lt;li&gt;Transparency breeds trust (for team and customers)
+            &lt;ul&gt;
+              &lt;li&gt;See &amp;lt;hhtps://buffer.com/transparency&amp;gt;&lt;/li&gt;
+              &lt;li&gt;Buffer transparency salary calculator
+                &lt;ul&gt;
+                  &lt;li&gt;See &lt;a href=&quot;https://buffer.com/salary?r=1&amp;amp;l=10&amp;amp;e=2&amp;amp;q=0&quot;&gt;https://buffer.com/salary?r=1&amp;amp;l=10&amp;amp;e=2&amp;amp;q=0&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;Term sheet and valuation of round A are public
+                &lt;ul&gt;
+                  &lt;li&gt;See &lt;a href=&quot;https://open.buffer.com/raising-3-5m-funding-valuation-term-sheet/&quot;&gt;https://open.buffer.com/raising-3-5m-funding-valuation-term-sheet/&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;It is even more important to be transparent when things don’t go well&lt;/li&gt;
+              &lt;li&gt;Culture is truly tested and defined during hard times&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Implementing culture for a globally distributed team
+            &lt;ul&gt;
+              &lt;li&gt;Can hire the best people in the world&lt;/li&gt;
+              &lt;li&gt;Hard to brainstorm (teams need mini-retreats)&lt;/li&gt;
+              &lt;li&gt;Harder to get on the same page&lt;/li&gt;
+              &lt;li&gt;Hard to disengage from work when working through Timezones&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Cultivate culture for remote work
+            &lt;ul&gt;
+              &lt;li&gt;Need to be self-motivated and genuinely passionate about your work&lt;/li&gt;
+              &lt;li&gt;Need to be resourceful, can get through roadblocks&lt;/li&gt;
+              &lt;li&gt;But hard time to hire juniors/interns&lt;/li&gt;
+              &lt;li&gt;Written communication is our main medium
+                &lt;ul&gt;
+                  &lt;li&gt;But can’t replace in-person interactions: We have retreats&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Make mistakes, keep tight feedback loops, iterate fast
+            &lt;ul&gt;
+              &lt;li&gt;Growing a remote team without managers was a bad choice&lt;/li&gt;
+              &lt;li&gt;Instead of hiding mistakes, we share them openly&lt;/li&gt;
+              &lt;li&gt;There are no balanced people, only balanced teams
+                &lt;ul&gt;
+                  &lt;li&gt;Culture fit -&amp;gt; culture contribution&lt;/li&gt;
+                  &lt;li&gt;Its the leaders job to hire for balance&lt;/li&gt;
+                  &lt;li&gt;Hiring for culture fit assumes that culture is perfect and static&lt;/li&gt;
+                  &lt;li&gt;See &lt;a href=&quot;http://diversity.buffer.com&quot;&gt;http://diversity.buffer.com&lt;/a&gt;
+                    &lt;ul&gt;
+                      &lt;li&gt;A/B testing to attract different demographics&lt;/li&gt;
+                      &lt;li&gt;Taking hiring risks consciously (instead of reducing it)
+                        &lt;ul&gt;
+                          &lt;li&gt;Everyone is hired for a 45 day work bootcamp (full-time contracting period)&lt;/li&gt;
+                        &lt;/ul&gt;
+                      &lt;/li&gt;
+                    &lt;/ul&gt;
+                  &lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Can’t copy other cultures&lt;/li&gt;
+          &lt;li&gt;Culture as differentiator (from 300 to 4000 job applicants)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;container-mgmt-at-netflix&quot;&gt;Container mgmt at Netflix&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qconnewyork.com/ny2016/presentation/scheduling-fuller-house&quot;&gt;Description&lt;/a&gt; and &lt;a href=&quot;https://qconnewyork.com/system/files/presentation-slides/schedulingfullerhouse_nflx.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Running container on AWS results in loosing EC2 metadata and IAM control&lt;/li&gt;
+  &lt;li&gt;Lesson: making container act like VMs
+    &lt;ul&gt;
+      &lt;li&gt;Implemented EC2 Metadata Proxy to bridge EC2 metadata into container&lt;/li&gt;
+      &lt;li&gt;Why?
+        &lt;ul&gt;
+          &lt;li&gt;Amazon service sdk’s work&lt;/li&gt;
+          &lt;li&gt;Service discovery continues to work&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lesson: Image Layering
+    &lt;ul&gt;
+      &lt;li&gt;Engineering tool team generates base images (blessed, secured) for app envs (i.e. node.js)&lt;/li&gt;
+      &lt;li&gt;Application images are derived from base image&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;cryptocurrency-key-storage&quot;&gt;Cryptocurrency key storage&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qconnewyork.com/ny2016/presentation/banking-future-cryptocurrency-key-storage&quot;&gt;Description&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;How cryptocurrency is stored at &lt;a href=&quot;https://www.coinbase.com&quot;&gt;Coinbase&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Sharding of crypto keys using &lt;a href=&quot;https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing&quot;&gt;shamir secret sharing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Using cold and hot storage (consensus access)
+    &lt;ul&gt;
+      &lt;li&gt;Cold storage
+        &lt;ul&gt;
+          &lt;li&gt;Most of the crypto currency is stored in cold storage (disconnected)&lt;/li&gt;
+          &lt;li&gt;Generated on hardware never connected to the internet&lt;/li&gt;
+          &lt;li&gt;Stored on usb&lt;/li&gt;
+          &lt;li&gt;Private key is being split into shards and encrypted independently&lt;/li&gt;
+          &lt;li&gt;Restoring private key requires majority of shards (individual parts can go rogue)&lt;/li&gt;
+          &lt;li&gt;Example: Ethereum Cold Storage for smart contracts
+            &lt;ul&gt;
+              &lt;li&gt;4 of 7 can retrieve the contract&lt;/li&gt;
+              &lt;li&gt;6 of 7 can change the contract&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Hot storage
+        &lt;ul&gt;
+          &lt;li&gt;Fully insured&lt;/li&gt;
+          &lt;li&gt;Single server requiring a quorum of senior engineers to unlock/unscramble&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Multisig Vault
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.coinbase.com/multisig&quot;&gt;https://www.coinbase.com/multisig&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Cold Storage as-a-Service (User Key, Shared Key, Coinbase Key)
+        &lt;ul&gt;
+          &lt;li&gt;User needs paper and passphrase&lt;/li&gt;
+          &lt;li&gt;m-of-n sharding of key is possible&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;what-they-do-not-tell-you-about-microservices&quot;&gt;What they do not tell you about microservices&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qconnewyork.com/ny2016/presentation/what-they-dont-tell-you-about-micro-services&quot;&gt;Description&lt;/a&gt; and &lt;a href=&quot;https://qconnewyork.com/system/files/presentation-slides/qcon-microservices_talk_v7_for_web_upload.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;See also
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/DanielRolnick/microservices-and-devops-at-yodle&quot;&gt;http://www.slideshare.net/DanielRolnick/microservices-and-devops-at-yodle&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.yodletechblog.com/2016/04/25/yodle-hackathon-april-2016-edition/&quot;&gt;http://www.yodletechblog.com/2016/04/25/yodle-hackathon-april-2016-edition/&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Good pragmatic steps for evolving from monolith to microservice architecture
+    &lt;ul&gt;
+      &lt;li&gt;After split Postgres started to break down with connection pooling, used an external connection pooler like &lt;a href=&quot;https://pgbouncer.github.io&quot;&gt;https://pgbouncer.github.io&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Choose mesos/marathon&lt;/li&gt;
+      &lt;li&gt;Thrift-based macro services&lt;/li&gt;
+      &lt;li&gt;Smart pipes vs context-aware apps
+        &lt;ul&gt;
+          &lt;li&gt;Decoupling application from service discovery
+  	* (v1) curator framework from Netflix brought into Zookeeper
+  	* (v2) hibachi by dotCloud (dedicated routing hosts)
+  	* (v3) haproxy
+  	* Marathon has built-in routing concept using haproxy (generates haproxy config)
+  	* Started using qubit bamboo
+  	* Can iterate routing and discovery independently from application, but run into scale problem around 300 service (square on every service needs to know every other service and health)
+            &lt;ul&gt;
+              &lt;li&gt;Moving back to topology of (v2) but with HAProxy&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Continious Integration/ Continious Deployment CI/CD
+        &lt;ul&gt;
+          &lt;li&gt;Using Sentinel to manage services&lt;/li&gt;
+          &lt;li&gt;Concept of &lt;a href=&quot;https://www.infoq.com/news/2013/03/canary-release-improve-quality&quot;&gt;canary release&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Container make things more simple but leave mess behind
+        &lt;ul&gt;
+          &lt;li&gt;Need to clean up container images: &lt;a href=&quot;http://www.yodletechblog.com/2016/01/06/docker-registry-cleaner/&quot;&gt;garbage collection in registry?&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Monitoring
+        &lt;ul&gt;
+          &lt;li&gt;Graphite and Grafana
+            &lt;ul&gt;
+              &lt;li&gt;Did not scale, since every team had to build own dashboard&lt;/li&gt;
+              &lt;li&gt;Too much manual effort and no alerting&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Switched to New Relic
+            &lt;ul&gt;
+              &lt;li&gt;Fully monitored if agent is present&lt;/li&gt;
+              &lt;li&gt;Goal was 100 apps in 100 days&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Source code management
+        &lt;ul&gt;
+          &lt;li&gt;Using &lt;a href=&quot;https://github.com/houndci/hound&quot;&gt;Hound&lt;/a&gt; to help with code searching&lt;/li&gt;
+          &lt;li&gt;Using &lt;a href=&quot;https://code.google.com/p/git-repo/&quot;&gt;GitRepo&lt;/a&gt; to help keep repos up to date&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Human service discovery
+        &lt;ul&gt;
+          &lt;li&gt;Using &lt;a href=&quot;http://www.yodletechblog.com/2015/12/14/yodles-continuous-improvement-of-continuous-delivery/&quot;&gt;Sentinel&lt;/a&gt; for developer finding services&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;lessons-learned-on-ubers-journey-into-microservices&quot;&gt;Lessons learned on Ubers journey into microservices&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qconnewyork.com/ny2016/presentation/project-darwin-uber-jourbey-microservices&quot;&gt;Description&lt;/a&gt; and &lt;a href=&quot;https://qconnewyork.com/system/files/presentation-slides/uber-journey_to_microservices_public.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;See also &lt;a href=&quot;https://eng.uber.com/building-tincup/&quot;&gt;https://eng.uber.com/building-tincup/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Very good presentation on the motivators to break apart the monolith&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;the-deadly-sins-of-microservices&quot;&gt;The deadly sins of microservices&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qconnewyork.com/ny2016/presentation/seven-deadly-sins-microservices&quot;&gt;Description&lt;/a&gt; and &lt;a href=&quot;https://qconnewyork.com/system/files/presentation-slides/qcon_nyc_2016_-_seven_more_deadly_sins_final.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;See also
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://speakerdeck.com/acolyer/making-sense-of-it-all&quot;&gt;https://speakerdeck.com/acolyer/making-sense-of-it-all&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://philcalcado.com/2015/09/08/how_we_ended_up_with_microservices.html&quot;&gt;http://philcalcado.com/2015/09/08/how_we_ended_up_with_microservices.html&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/dbryant_uk/craftconf-preview-empathy-the-hidden-ingredient-of-good-software-development&quot;&gt;http://www.slideshare.net/dbryant_uk/craftconf-preview-empathy-the-hidden-ingredient-of-good-software-development&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://acaseyblog.wordpress.com/2015/11/18/guiding-principles-for-an-evolutionary-architecture/&quot;&gt;https://acaseyblog.wordpress.com/2015/11/18/guiding-principles-for-an-evolutionary-architecture/&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Strategic goals &amp;lt;-&amp;gt; architecture principles &amp;lt;-&amp;gt; design and delivery practices&lt;/li&gt;
+  &lt;li&gt;Neal Ford: MSA as evolutionary architecture
+    &lt;ul&gt;
+      &lt;li&gt;Architecture is hard to change, so make architecture itself evolvable&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The spine model
+    &lt;ul&gt;
+      &lt;li&gt;Needs -&amp;gt; Values -&amp;gt; Principles -&amp;gt; Practices -&amp;gt; Tools&lt;/li&gt;
+      &lt;li&gt;going up to the spine to break deadlock&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cargo cutting
+    &lt;ul&gt;
+      &lt;li&gt;Understand the practices, principles, and values&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;But getting lazy with non-functional requirements&lt;/li&gt;
+  &lt;li&gt;Just Enough Software Architecture
+    &lt;ul&gt;
+      &lt;li&gt;Recommended book &lt;a href=&quot;https://www.amazon.com/Just-Enough-Software-Architecture-Risk-Driven/dp/0984618104/&quot;&gt;Just enough software architecture&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Ebook format available through &lt;a href=&quot;http://georgefairbanks.com/e-book/&quot;&gt;http://georgefairbanks.com/e-book/&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Embrace BDD-Security framework for BDD-style security testing
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.continuumsecurity.net/bdd-intro.html&quot;&gt;https://www.continuumsecurity.net/bdd-intro.html&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Devops
+    &lt;ul&gt;
+      &lt;li&gt;Topologies: &lt;a href=&quot;http://web.devopstopologies.com&quot;&gt;http://web.devopstopologies.com&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Testing
+    &lt;ul&gt;
+      &lt;li&gt;Continues Delivery: &lt;a href=&quot;https://dzone.com/articles/continuously-delivering-soa&quot;&gt;https://dzone.com/articles/continuously-delivering-soa&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Service virtualization: &lt;a href=&quot;https://github.com/SpectoLabs/hoverfly&quot;&gt;https://github.com/SpectoLabs/hoverfly&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Hoverfly is a proxy written in Go. It can capture HTTP(s) traffic between an application under test and external services, and then replace the external services. It can also generate synthetic responses on the fly.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Holger Reinhardt</name><email>holger@launchd.de</email></author><category term="conferences" /><category term="development" /><category term="culture" /><summary type="html">Haufe Blog: Notes from QCon New York</summary></entry><entry><title type="html">IRC and the Age of Chatops</title><link href="https://hlgr360.github.io/blog/blog/irc-chatops/" rel="alternate" type="text/html" title="IRC and the Age of Chatops" /><published>2016-04-16T00:00:00+00:00</published><updated>2016-04-16T00:00:00+00:00</updated><id>https://hlgr360.github.io/blog/blog/irc-chatops</id><content type="html" xml:base="https://hlgr360.github.io/blog/blog/irc-chatops/">&lt;p&gt;(this post was originally published on the &lt;a href=&quot;http://work.haufegroup.io&quot;&gt;Haufe Development Blog&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Since April 8th Haufe Group has a new group-wide tool to facilitate internal communication between individuals and teams: &lt;a href=&quot;https://rocket.chat&quot;&gt;Rocket.chat&lt;/a&gt;. If you have heard about Slack, then Rocket.chat is just like it.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-it&quot;&gt;What is it&lt;/h3&gt;
+
+&lt;p&gt;Rocket.chat is a group chat tool you can use to communicate internally in projects, exchange information on different topics in open channels and integrate tooling via bots. If you were around for the beginning of the internet, it’s like IRC but with history. If you know Slack… then it’s exactly like that.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-another-tool&quot;&gt;Why another tool&lt;/h3&gt;
+
+&lt;p&gt;… but we already have so many!&lt;/p&gt;
+
+&lt;p&gt;We know. But Slack has taken the software industry by storm over the last 3 years. We felt that IRC-style communication fits into a niche where social tools don’t. We experimented with Slack and many of us loved it so we used it daily. We got a lot of good feedback from our Slack pilot over the last year and already more than 100 colleagues registered in the first 24h after our Rocket.chat instance went live.
+If you are curious why we felt the need to support this very distinct form of communication, you might find some interesting information and ideas in the following articles:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://techcrunch.com/2015/04/07/modeling-mediums-of-communication/&quot;&gt;Modelling mediums of communication&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.ibm.com/opentech/2015/12/20/irc-the-secret-to-success-in-open-source/&quot;&gt;IRC - The secret to success of Open Source&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/synapse/is-slack-the-new-lms-7d1c15ff964f#.m6r5c1b31&quot;&gt;Is Slack the new LMS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;IRC-style communication has been around since the dawn of the Internet and continues to draw a large group of active users. As we strive to create an open and collaborative culture at Haufe, we felt that there was a need to complement the linear social-media style form of communication of something like Yammer with an active IRC-style chat model. As mentioned above, IRC style chat seems to encourage the active exchange of knowledge and helps us in creating a &lt;a href=&quot;https://en.wikipedia.org/wiki/Learning_organization&quot;&gt;learning organisation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But there is more. Based on the phenomenal success of Slack in the software industry, companies are starting to experiment with Chatops as a new take on devops:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pagerduty.com/blog/what-is-chatops/&quot;&gt;What is Chatops&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blogs.atlassian.com/2016/01/what-is-chatops-adoption-guide/&quot;&gt;Chatops Adaption Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And last but not least, there is even a trend in the UX community to leverage chat (or so called &lt;code class=&quot;highlighter-rouge&quot;&gt;conversational interfaces&lt;/code&gt;) as a new User Experience paradigm:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@acroll/on-chat-as-interface-92a68d2bf854#.vhtlcvkxj&quot;&gt;On Chat as an interface&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.fastcodesign.com/3054934/the-next-phase-of-ux-designing-chatbot-personalities&quot;&gt;The next phase of UX is designing chatbots&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Needless to say, we felt that there is not just a compelling case for a tool matching the communication needs of our developer community, but even more a chance to experience first hand through our daily work some of the trends shaping our industry.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-why-not-slack&quot;&gt;So why not Slack&lt;/h3&gt;
+
+&lt;p&gt;I give full credit to Slack to reimagine what IRC can look like in the 21st century. But for our needs as a forum across our developer community it has two major drawbacks. The price tag rises very quickly if wanted to role it out aross our entire company. But even more importantly we could not get approval from our legal department due to Germany’s strict data privacy rules.&lt;/p&gt;
+
+&lt;p&gt;Rocket.chat on the other hand is Open Source and we are hosting it in our infrastructure. We are keeping costs extremely low by having operations completely automated (which has the welcome side effect of giving our ops team a proving ground to support our Technology Stratgy around Docker and CI/CD). And we got full approval by our legal department on top.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-use-it&quot;&gt;How to use it&lt;/h3&gt;
+
+&lt;p&gt;We don’t have many rules, and we hope we don’t have to. The language tends to be English in open channels and in #general (where everyone is by default). We strive to keep in mind that there might be colleagues that don’t speak German. Beyond that we ask everyone to be courtegeous, open, helpful, respectful and welcoming – the same way we would want to be treated.&lt;/p&gt;
+
+&lt;h3 id=&quot;beyond-chat&quot;&gt;Beyond chat&lt;/h3&gt;
+
+&lt;p&gt;Chat and chat bots are very trendy this year – there is plenty of experimentation around leveraging it as a new channel for commerce, marketing, products, customers and services. Microsoft, Facebook, Slack – they are all trying it out. We now have the platform to do so as well if we want to.&lt;/p&gt;
+
+&lt;p&gt;But don’t take our word for it – check out the following links:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/chris-messina/2016-will-be-the-year-of-conversational-commerce-1586e85e3991#.aathpymsh&quot;&gt;2016 will be the year of conversational commerce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.wired.com/2013/03/conversational-user-interface/&quot;&gt;Conversational User Interfaces&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uk.businessinsider.com/microsoft-to-announce-chatbots-2016-3&quot;&gt;Microsoft to announce Chatbots&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.platformnation.com/2016/04/15/a-future-of-chatbots/&quot;&gt;Facebook’s Future in Chatbots&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Rocket.chat comes with a simple but good API and &lt;a href=&quot;https://github.com/RocketChat/hubot-rocketchat&quot;&gt;a framework for building bots&lt;/a&gt;. We are already looking at integrating with our internal tools like Git, Confluence, Jira, Jenkins and Go.CD.&lt;/p&gt;</content><author><name>Holger Reinhardt</name><email>holger@launchd.de</email></author><category term="api" /><summary type="html">Haufe Blog: IRC and the Age of Chatops</summary></entry><entry><title type="html">The beginnings of our API Journey</title><link href="https://hlgr360.github.io/blog/blog/api-journey/" rel="alternate" type="text/html" title="The beginnings of our API Journey" /><published>2015-11-19T00:00:00+00:00</published><updated>2015-11-19T00:00:00+00:00</updated><id>https://hlgr360.github.io/blog/blog/api-journey</id><content type="html" xml:base="https://hlgr360.github.io/blog/blog/api-journey/">&lt;p&gt;(this post was originally published on the &lt;a href=&quot;http://work.haufegroup.io&quot;&gt;Haufe Development Blog&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Before joining &lt;a href=&quot;http://twitter.com/HaufeDev&quot;&gt;HaufeDev&lt;/a&gt; I was fortunate to work in the &lt;a href=&quot;http://apiacademy.co&quot;&gt;API Academy&lt;/a&gt; consultancy with some of the smartest guys in the API field. So it was quite predictable that I would advocate for APIs as one of the cornerstones in our technology strategy.&lt;/p&gt;
+
+&lt;p&gt;Fast forward a few months and we open sourced the initial release of our &lt;a href=&quot;http://haufe-lexware.github.io/resources/&quot;&gt;API style guide&lt;/a&gt;. It is a comprehensive collection across a wide range of API design resources and best practices. Credit for compiling this incredible resource has to go to our very own &lt;a href=&quot;https://github.com/Kodrafo&quot;&gt;Rainer Zehnle&lt;/a&gt; who probably cursed me a hundred times over for having to use Markdown to write it.&lt;/p&gt;
+
+&lt;p&gt;But this was just the starting point. In parallel we started with formalized API Design Reviews to create the necessary awareness in the development teams. After a couple of those reviews we are now revising and extending our guide to reflect the lessons we have learnt.&lt;/p&gt;
+
+&lt;p&gt;The design reviews in turn triggered discussions on the various tradeoffs when designing APIs. One of the most compelling discussion was about &lt;a href=&quot;https://github.com/Haufe-Lexware/api-style-guide/blob/master/message-schema.md&quot;&gt;the right use of schema to enable evolvable interfaces&lt;/a&gt;. In that section we discuss how &lt;a href=&quot;https://en.wikipedia.org/wiki/Robustness_principle&quot;&gt;Postels Law&lt;/a&gt; (or Robustness Principle) can guide us towards robust and evolvable interfaces, but how our default approach to message schemas can result instead in tightly coupled and brittle interfaces.&lt;/p&gt;
+
+&lt;p&gt;Another new section was triggered by our Service Platform teams asking for &lt;a href=&quot;https://github.com/Haufe-Lexware/api-style-guide/blob/master/error-handling.md#error-response-format&quot;&gt;feedback on the error response of our Login API&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;While we are not claiming that our API design guidance and best practices are fool proof, having this document gives us an incredible leg up on having the right kind of conversations with engineering. And step by step we will be improving it.&lt;/p&gt;
+
+&lt;p&gt;This is also one of the reasons why we open sourced our API guide from the start - we have gained so much knowledge from the community that we hope we can give something back. We would love to hear your feedback or get pull requests if you are willing to contribute. This is the genius of Github - making it a journey and a conversation with the larger engineering community out there, and not just a point release. :)&lt;/p&gt;</content><author><name>Holger Reinhardt</name><email>holger@launchd.de</email></author><category term="api" /><summary type="html">Haufe Blog: The beginnings of our API Journey</summary></entry><entry><title type="html">How to start a developer blog</title><link href="https://hlgr360.github.io/blog/blog/hello-world/" rel="alternate" type="text/html" title="How to start a developer blog" /><published>2015-11-11T00:00:00+00:00</published><updated>2015-11-11T00:00:00+00:00</updated><id>https://hlgr360.github.io/blog/blog/hello-world</id><content type="html" xml:base="https://hlgr360.github.io/blog/blog/hello-world/">&lt;p&gt;(this post was originally published on the &lt;a href=&quot;http://work.haufegroup.io&quot;&gt;Haufe Development Blog&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;So how does one start a developer blog? It is pretty intimidating to look at blank editor to write this post ;) and think about some witty content, some heading which would rope you in and make you want to read what we have to say. But why should you? And who are we anyhow?&lt;/p&gt;
+
+&lt;p&gt;So lets start with first things first. &lt;strong&gt;Welcome to our Haufe Developer Blog&lt;/strong&gt;. 
+We - that is our development and design community at Haufe. And we are having a problem. No, it is not that we are sitting in Freiburg on the edge of the beautiful Black Forest in Germany. It is neither that we are a software company with close to 350 million EUR in yearly revenue you probably never heard of (you might have heard of Lexware though).&lt;/p&gt;
+
+&lt;p&gt;No, our problem is that we are actually doing quite some cool stuff (and planning even more in the future) and no one in the developer community knows about it. When I joined Haufe-Lexware as CTO back in March of this year the first thing I did was that I searched for Haufe on my usual (developer) channels: Github (nope), Twitter (nope), SlideShare (nope). Well, you see - I think that is a problem. If a tree falls in the forest but no one sees it - did the tree fall in the forest? How are you ever going to find out about us and get so excited that you want to join us - right now! (And yes - we do have plenty of dev openings if you are interested).&lt;/p&gt;
+
+&lt;p&gt;During the ‘Meet the new guy’ meeting with my team I drew a triangle with the three areas I would like to focus on first: Architecture, Technology and Developer Culture. I figured developing Developer Culture was the easiest - and boy was I naive (and wrong). Fast forward 6 month and I think that developer culture is the number one factor which will determine if we as a team and as company will succeed or fail. No matter what technology or architecture we use, it is the culture which permeates every decision we make at work day in and day out. It is culture which incluences if we go left or if we go right, if we speak up or if we remain silent. Without the right kind of culture, everything else is just band-aid.&lt;/p&gt;
+
+&lt;p&gt;You see, I am a pretty opiniated guy. I can probably talk for hours about Microservices, API’s, Docker and so on. But if you ask  me today what I think my biggest lever to affect lasting change will be, then shaping and influencing the direction of our dev culture will be my answer. Technoloy and architecure are just manifestations of that culture. Sure they need to be aligned, but &lt;strong&gt;culture eats strategy for breakfast&lt;/strong&gt;. And how we share our stories, how we talk about what we learned and what worked and what not, are important first steps of this cultural journey.&lt;/p&gt;
+
+&lt;p&gt;I would like to invite you to listen in to our stories and hopefully find a few nuggets which are  helpful for your own journey. Hopefully we can return a bit of knowledge to the community in as much as we are learning from the stories of so many other great teams out there who share their struggles, triumphs and learnings. So here is the beginning of our story ..&lt;/p&gt;</content><author><name>Holger Reinhardt</name><email>holger@launchd.de</email></author><category term="culture" /><summary type="html">Haufe Blog: Why culture is my most important task as CTO</summary></entry><entry><title type="html">OSCON EU 2015: The Business of Open Source</title><link href="https://hlgr360.github.io/blog/blog/notes-oscon/" rel="alternate" type="text/html" title="OSCON EU 2015: The Business of Open Source" /><published>2015-11-04T00:00:00+00:00</published><updated>2015-11-04T00:00:00+00:00</updated><id>https://hlgr360.github.io/blog/blog/notes-oscon</id><content type="html" xml:base="https://hlgr360.github.io/blog/blog/notes-oscon/">&lt;p&gt;Last week I had the chance to attend the OSCON Europe conference in Amsterdam. I would give the conference an overall good rating, but I was missing a bit the excitement and drumbeat (and some roadmap discussions) of leading Open Source foundations like Mozilla, Apache, or even Open Source companies like Docker. There was an interesting (photoshop’ed) teaser in the keynote on the second day by the energetic founders of &lt;a href=&quot;http://www.phusion.nl&quot;&gt;Phusion&lt;/a&gt; Team about ‘The Business of Open Source’. I would have loved to hear more about it - but maybe it was a clever marketing ploy to see if attendants would actually go out and ask the O’Really folks about that book. Well, it worked for me :)&lt;/p&gt;
+
+&lt;p&gt;The presentations were literally all over the map and the quality varied greatly. Some of the coding tutorials were interesting but lost me within the first 10 min by excessively scrolling back and forth and not providing the code snippets via Github. I was impressed by &lt;a href=&quot;http://kubernetes.io&quot;&gt;Kubernetes&lt;/a&gt; but asking me to create a Google Cloud account with a valid Creditcard as part of the workshop is a blatant attempt in developer trolling which I flat out refuse to follow. Both Google and CoreOS should have known better than trying to do that - and I am still surprised O’Reilly as conference organizer did let that happen. This is maybe appropriate at a sales event, but not at an Open Source conference (regardless if you are sponsor or not).&lt;/p&gt;
+
+&lt;p&gt;In general the first day was much stronger than the second one. But attending the ‘Inner Soure’ presentation from Paypal made the second day all worth it. Unfortunately there are no speaker slides  for this talk on the conference site, but you can read the gist of it in this &lt;a href=&quot;http://www.infoq.com/news/2015/10/innersource-at-paypal&quot;&gt;InfoQ&lt;/a&gt; article. I will certainly follow up on that one.&lt;/p&gt;
+
+&lt;p&gt;Ok, so lets get down to business and my notes. You can find speaker slides - if available - on the &lt;a href=&quot;http://conferences.oreilly.com/oscon/open-source-eu-2015/public/schedule/proceedings&quot;&gt;OSCON&lt;/a&gt; website.&lt;/p&gt;
+
+&lt;h4 id=&quot;architecture-as-code&quot;&gt;Architecture as Code&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;From the developer of tectribes.je (a tech community website)&lt;/li&gt;
+  &lt;li&gt;Adding the software developer as major stakeholder of software architecture&lt;/li&gt;
+  &lt;li&gt;Drawing pictures vs modeling system&lt;/li&gt;
+  &lt;li&gt;‘Just enough software architecture’ -&amp;gt; there is a model / code gap
+    &lt;ul&gt;
+      &lt;li&gt;Already described in ‘Software Reflexion Models’ paper from 1995&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Only include architectural significant elements -&amp;gt; do not over specify for understanding
+    &lt;ul&gt;
+      &lt;li&gt;Analogue is to google maps -&amp;gt; street view vs directions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Write architecture as code
+    &lt;ul&gt;
+      &lt;li&gt;Checkout &lt;a href=&quot;http://structurizr.com&quot;&gt;structurizr&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Render architecture models from code&lt;/li&gt;
+          &lt;li&gt;Architecture map(s) allows you to navigate from different level of abstraction down to source code&lt;/li&gt;
+          &lt;li&gt;Java specification on Github&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If software architecture mode is in the code, it can be extracted from the code&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;chaos-engineering-netflix&quot;&gt;Chaos Engineering (Netflix)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Resilience is a feature
+    &lt;ul&gt;
+      &lt;li&gt;Embrace failure rather than avoiding it
+        &lt;ul&gt;
+          &lt;li&gt;Add fail-save patterns&lt;/li&gt;
+          &lt;li&gt;Expect the unexpected for fall-back patterns&lt;/li&gt;
+          &lt;li&gt;Cost of resilience is accuracy or latency&lt;/li&gt;
+          &lt;li&gt;Tell upstream servers to use what you have&lt;/li&gt;
+          &lt;li&gt;Use local storage in browser as last fallback&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;CAP theorem applies
+        &lt;ul&gt;
+          &lt;li&gt;Sacrifice availability or consistency, you can only have 2 out of 3&lt;/li&gt;
+          &lt;li&gt;Best practices
+            &lt;ul&gt;
+              &lt;li&gt;Split out the control plane from workload&lt;/li&gt;
+              &lt;li&gt;When you use a cloud provider like AWS, make a decision which part you use for either product or control plane&lt;/li&gt;
+              &lt;li&gt;DNS and CDN are your best friends&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Introducing failure to test resilience
+        &lt;ul&gt;
+          &lt;li&gt;Failure Friday (play chaos monkey manually)&lt;/li&gt;
+          &lt;li&gt;You can not fix a single point of failure unless you know about it&lt;/li&gt;
+          &lt;li&gt;Outages are unpredictable, failures can be introduced deterministically&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Prevent propagation to avoid cascading failures
+        &lt;ul&gt;
+          &lt;li&gt;Use DNS: do geo routing with latency routing as fallback&lt;/li&gt;
+          &lt;li&gt;Move traffic fast but not too fast to avoid overflow and cascading failure&lt;/li&gt;
+          &lt;li&gt;Read the &lt;a href=&quot;http://readwrite.com/2014/09/17/netflix-chaos-engineering-for-everyone&quot;&gt;Readwrite article on Netflix Chaos Engineering&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;pull-requests-not-just-for-code-anymore&quot;&gt;Pull Requests, not just for Code anymore&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bad culture ruins good people&lt;/li&gt;
+  &lt;li&gt;Difference between implicit vs explicit culture&lt;/li&gt;
+  &lt;li&gt;You need to build explicit culture
+    &lt;ul&gt;
+      &lt;li&gt;Use github pages as repository for artifacts of culture
+        &lt;ul&gt;
+          &lt;li&gt;Engineering processes and policies&lt;/li&gt;
+          &lt;li&gt;Architecture notes in RFC style&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Why is it different to a Wiki
+    &lt;ul&gt;
+      &lt;li&gt;You can only change a Wiki, but there is no review or approval&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lessons learned
+    &lt;ul&gt;
+      &lt;li&gt;Learn git (offering classes and course)&lt;/li&gt;
+      &lt;li&gt;Have a moderator to move things along and force closure&lt;/li&gt;
+      &lt;li&gt;Be prepared for email flood (teach them how to use filters)&lt;/li&gt;
+      &lt;li&gt;Encourage action: encourage pull request over encourage sugestions&lt;/li&gt;
+      &lt;li&gt;With merge rights comes merges responsibility (do not leave them hanging)&lt;/li&gt;
+      &lt;li&gt;Its not a democracy&lt;/li&gt;
+      &lt;li&gt;Analogue to bonsai tree: a small team dedicated to growing and pruning it&lt;/li&gt;
+      &lt;li&gt;Designate an entropy fighter (to delete outdated assets)&lt;/li&gt;
+      &lt;li&gt;Embrace first day commit !!&lt;/li&gt;
+      &lt;li&gt;Even the White House IT policy team is using it&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;inner-open-source-paypal&quot;&gt;Inner Open Source (Paypal)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Moving from blocking/bottleneck to mentoring&lt;/li&gt;
+  &lt;li&gt;Scaling is a function of collaboration
+    &lt;ul&gt;
+      &lt;li&gt;Creating an environment which is self-healing and self-growing&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Build engagement through evangelism
+    &lt;ul&gt;
+      &lt;li&gt;10% of team are trusted committers, not more&lt;/li&gt;
+      &lt;li&gt;Focus on the positive of contribution, not necessarily if you agree with iit&lt;/li&gt;
+      &lt;li&gt;All reviews are publicly documented&lt;/li&gt;
+      &lt;li&gt;Require respectful and constructive communication&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Check out &lt;a href=&quot;http://InnerSourceCommons.org&quot;&gt;Inner Source Commons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Holger Reinhardt</name><email>holger@launchd.de</email></author><category term="oss" /><category term="innersource" /><category term="conferences" /><summary type="html">Notes from OSCON Europe 2015</summary></entry><entry><title type="html">The role of API’s in the Internet of Things</title><link href="https://hlgr360.github.io/blog/blog/apis-in-iot/" rel="alternate" type="text/html" title="The role of API's in the Internet of Things" /><published>2015-10-19T00:00:00+00:00</published><updated>2015-10-19T00:00:00+00:00</updated><id>https://hlgr360.github.io/blog/blog/apis-in-iot</id><content type="html" xml:base="https://hlgr360.github.io/blog/blog/apis-in-iot/">&lt;p&gt;This talk explores the importance and design decisions for API’s in IoT. Along the way it also questions some of the myths and marketing hype around the Internet of Things.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/7d0xn9q97-M&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</content><author><name>Holger Reinhardt</name><email>holger@launchd.de</email></author><category term="video" /><category term="api" /><category term="iot" /><summary type="html">Talk at API360 Summit in Dallas, 2015</summary></entry></feed>
