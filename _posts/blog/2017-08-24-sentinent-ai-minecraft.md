@@ -44,7 +44,7 @@ Ok, so lets mash those layers together and see if we can get this story wrapped 
 
 I don't think I will go as far as [Project Malmo](https://github.com/Microsoft/malmo) from [Microsoft Research](https://www.microsoft.com/en-us/research/project/project-malmo/) - but not because of a lack of aspiration, but more realistically because of lack of time. 
 
-I decided to call this sweet little project of mine [SentitentAIMod](https://github.com/hlgr360/SentinentAImod) and I sure hope that my kids - and especially my daughter - keep me honest and on track to actually stay with it for long enough to have learned some of those technologies. I did spend some time with my son, setting him up with his own [Github Repo](https://github.com/alx365/minecraft_mods) and fixing his mod build process. 
+I decided to call this sweet little project of mine [SentinentAIMod](https://github.com/hlgr360/SentinentAImod) and I sure hope that my kids - and especially my daughter - keep me honest and on track to actually stay with it for long enough to have learned some of those technologies. I did spend some time with my son, setting him up with his own [Github Repo](https://github.com/alx365/minecraft_mods) and fixing his mod build process. 
 
 If you want to tack along for the journey, stay tuned and check out my blog or subscribe to the [SentinentAIMod](https://github.com/hlgr360/SentinentAImod) repo.
 
