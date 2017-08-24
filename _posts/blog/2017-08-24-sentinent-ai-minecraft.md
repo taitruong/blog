@@ -18,7 +18,7 @@ First layer and setting the scene: You see, it is summer in good old Europe and 
 </figure>
 
 
-Second layer and describing my state of mind: Recently I got back into reading Science Fiction and one of the best new books I came across was [The Long Way to a Small, Angry Planet](https://www.amazon.com/Long-Small-Angry-Planet-Wayfarers/dp/0062444131) by [Becky Chamber](https://en.wikipedia.org/wiki/The_Long_Way_to_a_Small,_Angry_Planet). I got completely lost in the story and was delighted to find that she had recently published a sequel called [A Closed and Common Orbit](https://www.amazon.com/Closed-Common-Orbit-Wayfarers/dp/0062569406). In the second book one of the main characters is the Spaceship AI system from the first book which had gained conciousness and had by now been transfered into autonomous human shell. I followed it by reading [Ready Player One](https://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/0307887448/) from [Ernest Cline](https://en.wikipedia.org/wiki/Ready_Player_One) describing a dystopian future where the only remaining place to go to is an immersive virtual reality game (from the basic layout kind of like [Snowcrash](https://www.amazon.com/Snow-Crash-Neal-Stephenson-ebook/dp/B002RI9KAE) by Neal Stephenson).
+Second layer and describing my state of mind: Recently I got back into reading Science Fiction and one of the best new books I came across was [The Long Way to a Small, Angry Planet](https://www.amazon.com/Long-Small-Angry-Planet-Wayfarers/dp/0062444131) by [Becky Chamber](https://en.wikipedia.org/wiki/The_Long_Way_to_a_Small,_Angry_Planet). I got completely lost in the story and was delighted to find that she had recently published a sequel called [A Closed and Common Orbit](https://www.amazon.com/Closed-Common-Orbit-Wayfarers/dp/0062569406). In the second book one of the main characters is the Spaceship AI system from the first book which had gained conciousness and had by now been transfered into autonomous human shell. I followed it by reading [Ready Player One](https://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/0307887448/) from [Ernest Cline](https://en.wikipedia.org/wiki/Ready_Player_One) describing a dystopian future where the only remaining place to go to is an immersive virtual reality game (it reminded me in the basic layout of the story on [Snowcrash](https://www.amazon.com/Snow-Crash-Neal-Stephenson-ebook/dp/B002RI9KAE) by Neal Stephenson).
 
 <figure class="half">
 	<img src="/blog/images/sentinent-ai-minecraft/A-long-way.png" alt="long-way">
@@ -26,7 +26,7 @@ Second layer and describing my state of mind: Recently I got back into reading S
 	<figcaption>The Wayfarer Series from Becky Chambers.</figcaption>
 </figure>
 
-Third layer is what my kids are obsessing at the moment: Minecraft ... I got my oldest son the book [Minecraft Modding with Forge: A Family-Friendly Guide](https://www.amazon.com/Minecraft-Modding-Forge-Family-Friendly-Building/dp/1491918896) and ever since then I have been on the hook helping him programming [Minecraft Mods](https://github.com/alx365/minecraft_mods) in Java. And I - quite literally - got back into the game myself. And I have to admit that I am impressed by the creative freedom and extensibility of that game, lemding itself for so much more than just building blocks. From [Quantmechanics](http://qcraft.org/about/) to [space travel](https://micdoodle8.com/mods/galacticraft/) to [programmable computer](http://www.computercraft.info), the variety and creativity is just mind bogling. 
+Third layer is what my kids are obsessing at the moment: [Minecraft](http://minecraft.org) ... I got my oldest son the book [Minecraft Modding with Forge: A Family-Friendly Guide](https://www.amazon.com/Minecraft-Modding-Forge-Family-Friendly-Building/dp/1491918896) and ever since then I have been on the hook helping him programming [Minecraft Mods](https://github.com/alx365/minecraft_mods) in Java. And I - quite literally - got back into the game myself. And I have to admit that I am impressed by the creative freedom and extensibility of that game, lemding itself for so much more than just building blocks. From [Quantmechanics](http://qcraft.org/about/) to [space travel](https://micdoodle8.com/mods/galacticraft/) to [programmable computer](http://www.computercraft.info), the variety and creativity is just mindboggling. 
 
 <figure>
 	<img src="/blog/images/sentinent-ai-minecraft/qcraft.png" alt="qcraft">
@@ -46,9 +46,9 @@ I don't think I will go as far as [Project Malmo](https://github.com/Microsoft/m
 
 I decided to call this sweet little project of mine [SentitentAIMod](https://github.com/hlgr360/SentinentAImod) and I sure hope that my kids - and especially my daughter - keep me honest and on track to actually stay with it for long enough to have learned some of those technologies. I did spend some time with my son, setting him up with his own [Github Repo](https://github.com/alx365/minecraft_mods) and fixing his mod build process. 
 
-If you want to tack along for the journey, stay tuned and check out my blog or subscribe to the [SentitentAIMod](https://github.com/hlgr360/SentinentAImod) repo.
+If you want to tack along for the journey, stay tuned and check out my blog or subscribe to the [SentinentAIMod](https://github.com/hlgr360/SentinentAImod) repo.
 
 <figure>
-	<img src="/images/sentinent-ai-minecraft/npc.png" alt="npc">
+	<img src="/blog/images/sentinent-ai-minecraft/npc.png" alt="npc">
 	<figcaption>NPC Character, from minecraft.org.</figcaption>
 </figure>
